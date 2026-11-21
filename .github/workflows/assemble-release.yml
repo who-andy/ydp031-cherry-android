@@ -1,0 +1,61 @@
+name: Assemble draft installer asset
+on:
+  workflow_dispatch:
+    inputs:
+      release_id:
+        description: Numeric ID of the draft containing SHA256SUMS and installer.part.NNN
+        required: true
+        type: string
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify parts, attach installer and remove temporary parts
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          RELEASE_ID: ${{ inputs.release_id }}
+        shell: python
+        run: |
+          import hashlib, json, os, re, subprocess
+          from pathlib import Path
+          repo, ident = os.environ['REPO'], os.environ['RELEASE_ID']
+          if not re.fullmatch(r'[0-9]+',ident):
+              raise ValueError('Invalid release ID')
+          api = f'repos/{repo}/releases'
+          def gh(*args):
+              return subprocess.check_output(['gh','api',*args])
+          release = json.loads(gh(f'{api}/{ident}'))
+          if not release['draft']:
+              raise ValueError('Expected a draft')
+          assets = json.loads(gh(f'{api}/{ident}/assets?per_page=100'))
+          by_name = {a['name']: a for a in assets if a['state']=='uploaded'}
+          def download(name):
+              return gh('-H','Accept: application/octet-stream',f"{api}/assets/{by_name[name]['id']}")
+          filename = 'Cherry-YDP031-Installer.zip'
+          checks = download('SHA256SUMS').decode().split()
+          if len(checks)!=2 or checks[1]!=filename or not re.fullmatch(r'[a-f0-9]{64}',checks[0]):
+              raise ValueError('Invalid installer checksum')
+          parts = sorted(n for n in by_name if re.fullmatch(r'installer\.part\.\d{3}',n))
+          if not parts or parts != [f'installer.part.{i:03d}' for i in range(len(parts))]:
+              raise ValueError('Missing parts')
+          path = Path(filename)
+          checksum = hashlib.sha256()
+          with path.open('xb') as out:
+              for name in parts:
+                  data = download(name)
+                  out.write(data)
+                  checksum.update(data)
+          if checksum.hexdigest()!=checks[0]:
+              raise ValueError('Reconstructed ZIP failed verification')
+          if filename not in by_name:
+              result = json.loads(gh('-X','POST','-H','Content-Type: application/zip','--input',filename,
+                                   f'https://uploads.github.com/repos/{repo}/releases/{ident}/assets?name={filename}'))
+          else:
+              result = by_name[filename]
+          if result.get('digest')!='sha256:'+checks[0] or result['size']!=path.stat().st_size:
+              raise ValueError('GitHub asset failed verification')
+          for name in parts:
+              gh('-X','DELETE',f"{api}/assets/{by_name[name]['id']}")
