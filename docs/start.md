@@ -1,4 +1,4 @@
-# 第一次刷机
+# 首次安装双系统（Apple Silicon Mac / Ubuntu）
 
 Windows 11 x64 用户请先看 [Windows 刷机教程](windows.md)。下面的电脑操作适用于 Mac 和 Ubuntu。
 
@@ -16,11 +16,12 @@ Windows 11 x64 用户请先看 [Windows 刷机教程](windows.md)。下面的电
 1. 在本项目的开发笔上，原厂调试入口位于「设置 → 关于 → 法律监管」。进入该页，连续点按「法律监管」，看到 USB 调试入口后按设备提示开启。如果固件要求认证，请使用该设备支持的授权方式。这里记录的是开发笔的操作；全新原厂笔从首次开启到进入 Loader 的流程尚待独立验证。
 2. 电脑已有 Android Platform Tools 时，打开终端运行 `adb devices`。只看到一行自己的序列号，右侧为 `device`，表示 ADB 已连通。若出现 `unauthorized`，保持笔解锁，在笔上确认允许自己的电脑后再查一次。若只有表头，检查数据线、USB 端口和笔端开关。电脑还没有 adb 时，安装器选 1 会先准备工具。
 3. 向导随后会尝试进入 Loader，并检查设备身份。ADB 显示 `device` 后仍可能因固件拒绝重启而无法继续。若已由设备所有者进入受支持的 Loader，向导可以直接识别。
-4. Mac 或 Ubuntu 安装工具时若提示管理员密码，输入当前电脑账户的密码。装好 Android 后，连接调试电脑时可能还需在新系统里单独点「允许」。Android 应用申请 root 由 Magisk 单独管理。
+如果安装电脑工具时出现密码提示，请留意窗口属于哪个系统。在 Ubuntu 终端，sudo 使用 Ubuntu 账户。Mac 通过 Lima 制作镜像时，sudo 在虚拟机内执行。[各阶段的权限说明](installation.md)
+
 
 ## 下载和打开
 
-从[发布页](https://github.com/who-andy/ydp031-cherry-android/releases/tag/v0.2.0-rc.1)的 **Assets** 下载 **Cherry-YDP031-Installer.zip**。解压，打开里面的 **Cherry-YDP031** 文件夹。
+从[发布页](https://github.com/who-andy/ydp031-cherry-android/releases/latest)的 **Assets** 下载 **Cherry-YDP031-Installer.zip**。解压，打开里面的 **Cherry-YDP031** 文件夹。
 
 - **Mac** 双击 **Start.command**。如果系统拦截这个未签名的社区脚本，可以先看脚本内容，或在终端输入 `bash `，把 Start.command 从 Finder 拖进终端，再按回车。
 - **Ubuntu** 在解压后的文件夹打开终端，输入 `bash Start.command`。

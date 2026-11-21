@@ -19,17 +19,17 @@ winget install --exact --id Google.PlatformTools
 
 ## 下载与安装
 
-下载 [Windows ZIP](https://github.com/who-andy/ydp031-cherry-android/releases/download/v0.2.0-rc.2-win.1/Cherry-YDP031-Windows.zip)，在资源管理器选择「全部解压」，双击 **Start-Windows.exe**。选 4 可先检查下载包，不需要接笔或安装 WSL。选 2 可提前下载 Android 基础文件、图形库和浏览器。
+下载 [Windows ZIP](https://github.com/who-andy/ydp031-cherry-android/releases/latest/download/Cherry-YDP031-Windows.zip)，在资源管理器选择「全部解压」，双击 **Start-Windows.exe**。选 4 可先检查下载包，不需要接笔或安装 WSL。选 2 可提前下载 Android 基础文件、图形库和浏览器。
 
 选 **1 安装双系统**，只保留目标笔连接。安装器会先准备所需工具，再通过 Windows ADB 请求进入维护模式。USB 设备重新出现后，Windows 可能弹出管理员确认框，用于将这台设备共享给 WSL。随后程序识别词典笔、备份整笔，并生成安装文件。核对屏幕提示的序列号，输入确认后才开始写入。
 
-同机型共用 Android 和板级驱动。这里的「制作」指安装器将序列号填入启动配置，从这支笔的备份导入原厂资源，并按其现有分区计算差异。用户无需编译或挑选镜像。
+首次进入安卓后，打开「设备模式」，选择「学习模式」，回到桌面直接扫一个词，再试一次发音和系统切换。[日常使用](usage.md)
 
 ## 备份和恢复
 
 备份保存在 Ubuntu 用户主目录下的 `CherryPen/private/设备序列号/`。在 Ubuntu 终端运行 `explorer.exe "$(wslpath -w "$HOME/CherryPen/private")"` 可用资源管理器打开。妥善保存 stock.img 和 stock.img.sha256。卸载或注销 Ubuntu 发行版会删除其中的备份，操作前先复制到其他磁盘。
 
-用同一个 Windows 用户、Ubuntu 发行版和 Linux 账户重新打开启动器，选 **3 恢复**。恢复会覆盖安装以来新增的数据。安装和恢复都会校验目标设备，并在写入后回读。重启后观察笔上实际出现的界面。[首次开机验收和扫词](start.md)
+用同一个 Windows 用户、Ubuntu 发行版和 Linux 账户重新打开启动器，选 **3 恢复**。恢复会覆盖安装以来新增的数据。安装和恢复都会校验目标设备，并在写入后回读。重启后观察笔上实际出现的界面。[恢复中遇到问题](recovery.md)
 
 ## USB 连接问题
 
