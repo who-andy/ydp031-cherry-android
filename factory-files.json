@@ -1,0 +1,6501 @@
+{
+ "board/original-ui/base/libjsapi_export.so": {
+  "bytes": 959760,
+  "sha256": "fed8bc49cdd8c65b61956468e4f0633091ae3c3fc2bf03701bf4e0f825b7c60e",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/jsapis/libjsapi_export.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/BackTopIcon-77082fdb.js.bin": {
+  "bytes": 1063,
+  "sha256": "aceb91a571a2d0f06b4a3acd467612101723c61fdeb7d955b98a74409d292c46",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/BackTopIcon-77082fdb.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/BasePage-bba556b1.js.bin": {
+  "bytes": 11010,
+  "sha256": "6dd7904ede3b58611045ec5d81ac5b30e87a5beeb20dd9ea1f34da69ec010aca",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/BasePage-bba556b1.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/Constant-5f85db79.js.bin": {
+  "bytes": 9138,
+  "sha256": "e62ffefc07474c40bf835f90b2f4a165a12d00646fcf0b285ea375a337525900",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/Constant-5f85db79.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/DictFrom-4a20e33b.js.bin": {
+  "bytes": 2691,
+  "sha256": "a8c4ee248ed9a2be0bba1808719e37112aae23946a85b33b90540571e56d5acd",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/DictFrom-4a20e33b.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/DtAbroad-ae878937.js.bin": {
+  "bytes": 41276,
+  "sha256": "ac8302590ade2c695a51571618ba6da7f2f8eaf87e21680ad6504d2f3b1ea4aa",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/DtAbroad-ae878937.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/DtIndividual-ec90711b.js.bin": {
+  "bytes": 52922,
+  "sha256": "e387bdae17e7fc89c18abd185bcf356c43c2ba0e2cd7b3989ac9555f350046fc",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/DtIndividual-ec90711b.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/DtWebster-05841ffe.js.bin": {
+  "bytes": 62500,
+  "sha256": "94be503ca966fc3d763c8225823bfbcf9d1437585bf7a6fbd2aa707ab567010d",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/DtWebster-05841ffe.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/HorizontalScroller-f82ed100.js.bin": {
+  "bytes": 1005,
+  "sha256": "1ab268248ec4974013a45936bee43f5486929f47f23cb1f8fb20fd9bbd64cacc",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/HorizontalScroller-f82ed100.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/LoadMoreBtn-c6ee29b9.js.bin": {
+  "bytes": 4005,
+  "sha256": "5b5adaa43147b863b6ac3aa7161cd4a11999aaf50abaee13b1da6951a6778cbe",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/LoadMoreBtn-c6ee29b9.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/NumberSymbol-af0c965b.js.bin": {
+  "bytes": 4226,
+  "sha256": "1d7c7062177297d92b4cddbf15b7a2a2a74e9821f1a861fdea55aaac2b729d29",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/NumberSymbol-af0c965b.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/OxfordIdmGDivDetail-e9fbf88c.js.bin": {
+  "bytes": 11960,
+  "sha256": "6ec04f9f36ea50c749c4fa7d9f0b12c0706474a2363f7c509395b968ed97a932",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/OxfordIdmGDivDetail-e9fbf88c.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/OxfordPvGDiv-2be19ab9.js.bin": {
+  "bytes": 8955,
+  "sha256": "22fdcfa5295738601a95fa003ee8fcb137f30736bfd2ebd8e614fd4e3b2b10a8",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/OxfordPvGDiv-2be19ab9.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/OxfordSnGsDivDetail-06c0f38d.js.bin": {
+  "bytes": 162174,
+  "sha256": "7d85c1d3c3dd783a6685d5b12b7f5eb50f090d0fa30f0a7f220e5ca4430b9a6f",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/OxfordSnGsDivDetail-06c0f38d.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/PoemAdOrigin-e5c98063.js.bin": {
+  "bytes": 40945,
+  "sha256": "952f1c53247995e4a39ac48bb4ab1e658305f0afba4795058b191dfec3789588",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/PoemAdOrigin-e5c98063.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/Report-ee739c58.js.bin": {
+  "bytes": 15852,
+  "sha256": "76e5ec791800df8326616d000c363a0244ff23a4be1f80d31431fde91096dc04",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/Report-ee739c58.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/ScanTransl-d1b69c70.js.bin": {
+  "bytes": 284278,
+  "sha256": "5ad56a06cf7172252fc43115553e93a03344dedc4657509fb39bbb82f30e26cf",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/ScanTransl-d1b69c70.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/SoundButton-2ff78f5b.js.bin": {
+  "bytes": 18262,
+  "sha256": "16a875d80b333ae55ef145eb33dcf72739190689667527b97ddbfcd7bc45fa7b",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/SoundButton-2ff78f5b.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/SoundPlayIcon-304e2a3e.js.bin": {
+  "bytes": 1539,
+  "sha256": "c34914e78f5e9f099056bf953d8a452fa41143315f6398779ab08db0f31eb36d",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/SoundPlayIcon-304e2a3e.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/TranslResultHeader-4ea48c9c.js.bin": {
+  "bytes": 24414,
+  "sha256": "e04b6cfcc7d40c3de67d42604e67ed7afeed126ef06dd2a437890041eff41b33",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/TranslResultHeader-4ea48c9c.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/TranslResultList-f8ac0f2e.js.bin": {
+  "bytes": 604413,
+  "sha256": "eb812c039022ffb3e4bc10f7c99c8f545e35a00fb35427cb22c002f3982bcd34",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/TranslResultList-f8ac0f2e.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/YDAncientCh-8a8c4809.js.bin": {
+  "bytes": 42947,
+  "sha256": "3b83f65ee9d903ede06aab44435bfdd67a9ac77c0e2f661a0e3da3f6bbce256d",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/YDAncientCh-8a8c4809.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/YDAncientChPage.js.bin": {
+  "bytes": 3658,
+  "sha256": "52a1cce2c9672b9c55994e76b96395536b9398e988341546651b4a629b07c020",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/YDAncientChPage.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/YDIidiomDetailPage.js.bin": {
+  "bytes": 6234,
+  "sha256": "b2b3c40100b32ea3fbf1f4d179958c313a51439459756c4e6d1ef675f0a080c7",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/YDIidiomDetailPage.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/YDSpellPage.js.bin": {
+  "bytes": 8861,
+  "sha256": "e723041f816343445f424787009f3f5754c6ff51348406ee5a69e5b83ae2ccfa",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/YDSpellPage.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/YTranslateText-f089f2ca.js.bin": {
+  "bytes": 33318,
+  "sha256": "afaa04c7d1600db058ac4b08caca554e43648fbb7c9950f9d2aadcd748040ee8",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/YTranslateText-f089f2ca.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/app.js.bin": {
+  "bytes": 56233,
+  "sha256": "a0d1462761eff7afc26b0af5a2d2446eba22c20ef6dfdc501d7c6cb2797fbf69",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/app.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/app_icon.png": {
+  "bytes": 2580,
+  "sha256": "0fbe3e292b2b01e8d44c674f26841dae02e5bc5afdbcea41be83a8ab7190d6fc",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/app_icon.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/audioplayer-play-red-ff8968d8.js.bin": {
+  "bytes": 183,
+  "sha256": "827acff47a3d8edceefb1f4cecc43a6a500deb2a7a5e5eb3814128bc73e2eaf8",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/audioplayer-play-red-ff8968d8.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/buttonEventManager-33f650fb.js.bin": {
+  "bytes": 186,
+  "sha256": "696bb382eb5f9bd272fc2b4130ff8f684cafe84bea025e5676eb2ec75e7c3a35",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/buttonEventManager-33f650fb.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/globalManager-842ef7f6.js.bin": {
+  "bytes": 159,
+  "sha256": "69225c74492627d6dcb52f0f741232e102c5cddba9947669e85ea3bd95c029a8",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/globalManager-842ef7f6.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/02c6bcd352b50b3239d93bfc47d4b8b3.png": {
+  "bytes": 459,
+  "sha256": "3f331677c9ee53b4beb976ddb668a6ece7191f450c204145d2309ca7498bb718",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/02c6bcd352b50b3239d93bfc47d4b8b3.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/0402431712c30072a44818a0f16afcaf.png": {
+  "bytes": 3468,
+  "sha256": "47900d78129473d19c479c028bc7b37533aeded926f18624ac2ddf0842392171",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/0402431712c30072a44818a0f16afcaf.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/055585cc89b1892c93043d038d7a28a2.png": {
+  "bytes": 629,
+  "sha256": "7ec2599699aeeb820342c6d34447dfeeb7b2639b11227c27481c5aab3bd66d37",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/055585cc89b1892c93043d038d7a28a2.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/076ce31e5b4efda1ad0628e8fdbc058e.png": {
+  "bytes": 1014,
+  "sha256": "2f28a60b17f8ab4274f8c70b4c712cfc9360e20c179d6bfb98bdb83595810a0b",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/076ce31e5b4efda1ad0628e8fdbc058e.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/099bee232a4909fcc18529af2d21152e.png": {
+  "bytes": 749,
+  "sha256": "405ec3240474ea29c5e5fe0040ee8dafc55f7f105ace17fa25a3d3c3189f3822",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/099bee232a4909fcc18529af2d21152e.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/0a3a19467d17d74314f477edf624d2c1.png": {
+  "bytes": 1183,
+  "sha256": "ba590fec27af255fc26de1ee0659c4cb44624d02a56d25e6ef5d757dae772714",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/0a3a19467d17d74314f477edf624d2c1.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/0a82d461a8ac2e1ca51d1a62da101023.png": {
+  "bytes": 767,
+  "sha256": "efe9c70196bae6f177947b44e745e5c51f01a8252e82e0043918fa9f24a416f7",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/0a82d461a8ac2e1ca51d1a62da101023.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/0ab4214c855648ad1ac396344c40aadb.png": {
+  "bytes": 560,
+  "sha256": "5f79342e76d7e8d1a8e6b4ceedb40895d6648bccd124acaa5b32caba086709b1",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/0ab4214c855648ad1ac396344c40aadb.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/0c2f8b61530e13054174c82e00682a5b.png": {
+  "bytes": 3860,
+  "sha256": "ddcb02aacc8f12b95747bf1dc3d136fa53992e3daa127f31c961f4affe4db23b",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/0c2f8b61530e13054174c82e00682a5b.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/0fbff931b7bc36658971cfe487244164.png": {
+  "bytes": 900,
+  "sha256": "b4eb8944048915134ec4166ec67dab063cd647be692499cc4fa7c72a8e31b587",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/0fbff931b7bc36658971cfe487244164.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/0ff4654e8f8f5ab7eb880726975be467.png": {
+  "bytes": 702,
+  "sha256": "56d947913a1245588813967250f345b56d2447bdfda5047c799574e76409e6f7",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/0ff4654e8f8f5ab7eb880726975be467.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/12bdc483bf407bd6ca1c1ffba8864e3e.png": {
+  "bytes": 536,
+  "sha256": "d54e296517db38d4eacb731d15ad879257d13f6d8c499db35f5638a3d08bd49f",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/12bdc483bf407bd6ca1c1ffba8864e3e.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/15a9471aec47356e1b1f7e8fc5e91309.png": {
+  "bytes": 495,
+  "sha256": "97b0959b9bdee994e1fe0bcd0af9a537d97ead3ae28587fb731119c5aa333a9b",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/15a9471aec47356e1b1f7e8fc5e91309.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/18b92e364626809b6272d6ecb7333a79.png": {
+  "bytes": 1355,
+  "sha256": "85c16eb6cc761cb0208c53dbb09e6d29848e5015c5309d65c0509331f941cece",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/18b92e364626809b6272d6ecb7333a79.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/18cd8e3064e7446cd0ae3e123ba6680c.png": {
+  "bytes": 684,
+  "sha256": "b9434521df9d4ab03b831438901bee508b81621cec7ec03dc22920ed40ef1f3c",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/18cd8e3064e7446cd0ae3e123ba6680c.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/1c0a3b68a5c4e9e1aa4b9d9d01fc5976.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/99a5f67ce87529a4b177b9370b22e4d1.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/a374d15929663c081ca85bdef294a44d.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/e89179987949f4defe891ac1e52199d6.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/1c0a3b68a5c4e9e1aa4b9d9d01fc5976.png": {
+  "bytes": 684,
+  "sha256": "b9434521df9d4ab03b831438901bee508b81621cec7ec03dc22920ed40ef1f3c",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/18cd8e3064e7446cd0ae3e123ba6680c.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/1c0a3b68a5c4e9e1aa4b9d9d01fc5976.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/99a5f67ce87529a4b177b9370b22e4d1.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/a374d15929663c081ca85bdef294a44d.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/e89179987949f4defe891ac1e52199d6.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/1d66254692079062e7592e1211f2a053.png": {
+  "bytes": 337,
+  "sha256": "8684e5b287fd1e7722a45e3d733f56492647afde2c2e3a26204960f65428255e",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/1d66254692079062e7592e1211f2a053.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/1e44386587b0c6bc3f981b61bd93b1d1.png": {
+  "bytes": 26309,
+  "sha256": "ac4f259d8f694efd5f8d68bd84e3c58f4783468161ac5b336e1a0a7db986286a",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/1e44386587b0c6bc3f981b61bd93b1d1.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/20698f82ca227dff40aa905b9b664319.png": {
+  "bytes": 18315,
+  "sha256": "22e011d6cb92e74070e4a080764e38828405cf12e826903390047f90b09503f4",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/20698f82ca227dff40aa905b9b664319.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/20afe628f1e565acfc8eceae06aa8edf.png": {
+  "bytes": 678,
+  "sha256": "b6407f233ce58d57536c94b4fa0126ec2aedb186f93d4a6c972accca14248ea6",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/20afe628f1e565acfc8eceae06aa8edf.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/215ae7c0343ba1e4c1ec023ddfa76370.png": {
+  "bytes": 1302,
+  "sha256": "f5caa6b20edbcbe3d1fd563ca7892aa6f5f9f8441c7a9ac5f1f73d2d1f08bae9",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/215ae7c0343ba1e4c1ec023ddfa76370.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/21f6f9d5af9b4e5b936e707c9715912f.png": {
+  "bytes": 1344,
+  "sha256": "03175ee9642a5814d8893a80284fd907eaa2ec761d4d2ee97bebc49e95dd4140",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/21f6f9d5af9b4e5b936e707c9715912f.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/2892b28d296895c114fefac5689e44fc.png": {
+  "bytes": 439,
+  "sha256": "c0c9818daa7b1c3e7028db48f95045dc45c9f1db007f395b600cc13868e969ce",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/2892b28d296895c114fefac5689e44fc.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/28bb1cf18c55a9d57c2df2979dc6e6a9.png": {
+  "bytes": 3114,
+  "sha256": "28bec14ca08a1b0bb4a9a243e96c6eb3accac24aa8aea7b01ba557e1de9b6e66",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/28bb1cf18c55a9d57c2df2979dc6e6a9.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/28df1c414d72861e89f1433075cc3f0f.png": {
+  "bytes": 1501,
+  "sha256": "285b91c23eecd972bc1754b8700453eb36853425fad8938220a7f867e1a4ed3e",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/28df1c414d72861e89f1433075cc3f0f.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/29ded4eb09143ce71eeeddf71c6524d4.png": {
+  "bytes": 96718,
+  "sha256": "39f3bc3934e17bb25ecc8a3882e0bf883aca5c038dd6c4318b6ef4af5a04c3d3",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/29ded4eb09143ce71eeeddf71c6524d4.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/2b3c73c01430261b6d26d0e8faed9b88.png": {
+  "bytes": 684,
+  "sha256": "9543c8c74ea776930331032c37f58ab96a38c2bca1ba94162c11b03fd01ea5d3",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/2b3c73c01430261b6d26d0e8faed9b88.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/93138e58f6660fa2036ea9ae825f24fb.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/9be1ec26da5ee6ece58e949c07d91b57.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/b79f6f4a063db23b39d81a0ae46fe7bd.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/cb2252bfd97daa52a1754bbf0debe51e.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/2b55a07c4c14d7e014454fdd5adc430b.png": {
+  "bytes": 15236,
+  "sha256": "330e428357be455189b0337106753b8940886b508b9f253f046ebaf36c48111e",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/2b55a07c4c14d7e014454fdd5adc430b.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/32b0216e1d8c8abf4aadf93b46a9cfb0.png": {
+  "bytes": 1626,
+  "sha256": "63efcdcccc18d648a2c84b3461a391ce6244fd058562fb937c4458685a141be3",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/32b0216e1d8c8abf4aadf93b46a9cfb0.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/33d265e25fbe26d470427eff9dbb9f5e.png": {
+  "bytes": 702,
+  "sha256": "a7258ffb78fb89e1e4b67af175dc08e97f027455aaf3ff710af5a09539bbb4c3",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/33d265e25fbe26d470427eff9dbb9f5e.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/3583a58e6b683565c87384e8ceedbc15.png": {
+  "bytes": 16299,
+  "sha256": "deaeed1bdc3db96cd276d0c26127947666801d648e97e4333fd62d8536276ee9",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/3583a58e6b683565c87384e8ceedbc15.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/3a9bda4d320dc40d9b3b7492fd53cb0a.png": {
+  "bytes": 541,
+  "sha256": "0ba039b11b2bff1402d27cabe9e53f6639f512d57de182038d45213bb1d01b05",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/3a9bda4d320dc40d9b3b7492fd53cb0a.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/3c5e18f4c8c8cc5cfc24673be5574314.png": {
+  "bytes": 1298,
+  "sha256": "517a317926b6b79268752e63a534d31d5ecf314d8d07546b502df24666717679",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/3c5e18f4c8c8cc5cfc24673be5574314.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/3cd263f650cad6d28a77452c419a9d6a.png": {
+  "bytes": 884,
+  "sha256": "446192593b7edcea8a072c686beb19412933aa3ee98d585509514492ab59c057",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/3cd263f650cad6d28a77452c419a9d6a.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/3f341ecae68aaf9df7aa3f7d8c4ffc26.png": {
+  "bytes": 879,
+  "sha256": "05cf5905b84e8e836a2b81684a14ab43986a37a4e30ec2ec3c360a9cc98fb2dc",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/3f341ecae68aaf9df7aa3f7d8c4ffc26.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/3fa200e963c32dcafad5bad3c294b2a4.png": {
+  "bytes": 19431,
+  "sha256": "203b6f9030c3369c1ab002315717d0e1f3d9e080e6711d90364d6850f5718fc2",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/3fa200e963c32dcafad5bad3c294b2a4.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/414b1ad722dc44ef69d484c58329ba55.png": {
+  "bytes": 494,
+  "sha256": "ff01ab6a38968a2f372ab0e775024cbb0cae7525ddea477bbeb741989b25e91d",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/414b1ad722dc44ef69d484c58329ba55.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/42dc2d2fac30894b67cca0335cd41bda.png": {
+  "bytes": 768,
+  "sha256": "5a1d9543d5ab57d59a2a0cc805a4d3e4ec53e27daf0673d977865ef5e1bb27ef",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/42dc2d2fac30894b67cca0335cd41bda.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/444bd1fec0d920d85fa6d5165869d23b.png": {
+  "bytes": 64459,
+  "sha256": "cdd18649bad9142abb43251dd7ca1972fc76f7c06273ca5c03f070b6b2b4ad15",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/444bd1fec0d920d85fa6d5165869d23b.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/446472a3da1dc7bb4c54d11c149a6474.png": {
+  "bytes": 3388,
+  "sha256": "0f6bc035271fabc5d8deb64b2bfefb521f22c97cd98e0572786df9c112a9f09c",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/446472a3da1dc7bb4c54d11c149a6474.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/4702aef6df3b54b9932b403725266083.png": {
+  "bytes": 3607,
+  "sha256": "a00ce16cb07f265ab9a8ce31d8ebe0fd4f1f5dc4afab8d723ddd8b38925ed14e",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/4702aef6df3b54b9932b403725266083.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/49714743b85500708ac0bfde6c6d8e0c.png": {
+  "bytes": 114626,
+  "sha256": "1a2d29e2acc5822f2aff1f25bd533b0abbaab6b1e28f73dd12c14571b8ad5c15",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/49714743b85500708ac0bfde6c6d8e0c.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/4a77c2567077a467d29338cef7b0530c.png": {
+  "bytes": 628,
+  "sha256": "b7cd080bda9cebf52e60c06d2123d64199f1708014b49985229168e84cbdbfbb",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/4a77c2567077a467d29338cef7b0530c.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/4b2fbb5167ca04938ab14230516f9874.png": {
+  "bytes": 1378,
+  "sha256": "f971fe3d37778a68aa2a926d25740382c5f5a5e126abb334b25d16e6e1c37af2",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/4b2fbb5167ca04938ab14230516f9874.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/4b4c878c2575960395f0111b23000ec4.png": {
+  "bytes": 647,
+  "sha256": "f461006b73a5f191dbac9e46260d517cbf1155691b74eddce28b0ba93edc4612",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/4b4c878c2575960395f0111b23000ec4.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/4f7bc763e5c42b0a91cafba9c7260365.png": {
+  "bytes": 918,
+  "sha256": "0c743267de3f5ba170b2727ed0acb6b9673456503f6edb249917f02deca9e0c4",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/4f7bc763e5c42b0a91cafba9c7260365.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/4fb1d2005ea44be45090d883b361c655.png": {
+  "bytes": 1317,
+  "sha256": "4187816c389f8e0c30e0812451319d91cfa1c513f9ca2027c146f23267e02561",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/4fb1d2005ea44be45090d883b361c655.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/507b87d54b093c12510342512c64c227.png": {
+  "bytes": 1001,
+  "sha256": "ef81453897e94ff07b0aa28737b90df7b6ffecf57275d8d1b8378574e26e500b",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/507b87d54b093c12510342512c64c227.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/51a3046dca8118e27a164067fc46e193.png": {
+  "bytes": 2701,
+  "sha256": "7cf7a0ee38d768ce2debf60cfee67c2eea436bcdfb3c72eac3eaf27e7396ec82",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/51a3046dca8118e27a164067fc46e193.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/5319fcab4aa333cbb7c45fd01d621be8.png": {
+  "bytes": 936,
+  "sha256": "da9000953096679771ce45d2bb54ac94e349c98c3b0b78ed22d3a7a418ea4486",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/5319fcab4aa333cbb7c45fd01d621be8.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/56349bde5f618c3131ea72e6dd0f6365.png": {
+  "bytes": 1360,
+  "sha256": "ba3ecfd245076586adc091e76a4defdb3ab9521f0f3fac7b5467711692e5f0eb",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/56349bde5f618c3131ea72e6dd0f6365.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/56418e282dece5ff090cffe1f72c9103.png": {
+  "bytes": 739,
+  "sha256": "0949d0c65b0fe3881e22d886029666bc06115c1f197654aa9d2e7479cd532b85",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/56418e282dece5ff090cffe1f72c9103.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/5648e37674b45d8642444c69d616ae56.png": {
+  "bytes": 1365,
+  "sha256": "8d75ea9ec0a6f9bac455435407c56f82d9f51caaf4a42b1bddaa2197acfa93ed",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/5648e37674b45d8642444c69d616ae56.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/56d1f4fd02d8560879342713e0c0146f.png": {
+  "bytes": 1680,
+  "sha256": "5043c01ee005d7ff585cb4b3493ed25cc325fd8aaf96a0b1d00e23bb28e92b59",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/56d1f4fd02d8560879342713e0c0146f.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/5914b43bb3585e04c7a50e6b1487eb87.png": {
+  "bytes": 133059,
+  "sha256": "b49aa2c8c00385f7193559ff57461998a8477673d2993f9f01a955f0d8d9b93d",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/5914b43bb3585e04c7a50e6b1487eb87.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/5ff7e6ac5b1c735e9a55fb3c173ebe38.png": {
+  "bytes": 764,
+  "sha256": "b78b32a44191dde5f05eabd6d4ad6c4311f2d2769ad3e53906272fbe46864fcd",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/5ff7e6ac5b1c735e9a55fb3c173ebe38.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/60b016e83530801adf2518dee0095e0c.png": {
+  "bytes": 28914,
+  "sha256": "7674ae09e021f7694e012da90a4e1ccd11bd36c13ba1d80e3dc263363969984e",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/60b016e83530801adf2518dee0095e0c.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/6726ce39a339f02bb3b3b1ee68e6f138.png": {
+  "bytes": 1608,
+  "sha256": "90f64e48a9b821dc4b09168ea78f864020ff29004938ecb2d5ad692b554bc4ae",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/6726ce39a339f02bb3b3b1ee68e6f138.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/67386e456908a6c4e3e1a26f6b21aea6.png": {
+  "bytes": 624,
+  "sha256": "2d74fd77be51f5424ecf3d6040e5aa2d48e563a1fc8a5a981913bc1098666424",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/67386e456908a6c4e3e1a26f6b21aea6.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/679897611eb605f6b7aff8a30e26961c.png": {
+  "bytes": 357,
+  "sha256": "db514e1d255c32d6c6dec22fe6b41f1ed4f8617f9cefe3804ea7af3f7054e2cf",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/679897611eb605f6b7aff8a30e26961c.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/68e679c5b6846d3001a2db6339ffed49.png": {
+  "bytes": 643,
+  "sha256": "406ecee4fd4503aae0f0e7927a77f59d54e7ff47f144ba24aeee777193cae216",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/68e679c5b6846d3001a2db6339ffed49.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/6957ad5f14abcfddbb71bca8ef3a9f85.png": {
+  "bytes": 473,
+  "sha256": "f51bf1b142ba737e722f4a6e2e49cca0fbaa3cda14612a110101f9567ef345be",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/6957ad5f14abcfddbb71bca8ef3a9f85.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/6979c82b21a82c5089c67dad5ae46b1e.png": {
+  "bytes": 230,
+  "sha256": "4423ba3bca0fd14a9034132617c966ff9e6ae5e4b6ec984a6d2e81b44eb6e673",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/6979c82b21a82c5089c67dad5ae46b1e.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/6ada60cdfa2621e70ab21252c04605ad.png": {
+  "bytes": 766,
+  "sha256": "03c85485d77c861cfeab0b8f0d5e31832b9e38b45c1c8bb113d7bd8cf157e2c6",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/6ada60cdfa2621e70ab21252c04605ad.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/6b6e3285a0b9545c98ce0383c5ee71a5.png": {
+  "bytes": 1533,
+  "sha256": "d6d80c022a92ee72dc320d10e407be119acfc7dd282b23eed2177362da65682f",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/6b6e3285a0b9545c98ce0383c5ee71a5.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/6e736c0cbbb77381ecc41f7840eb5f4d.png": {
+  "bytes": 2864,
+  "sha256": "89e74bd60e07eb27c53ea00aceae67f8853c2dfbcae6f9ef604e9a0a6cd86569",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/6e736c0cbbb77381ecc41f7840eb5f4d.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/739dc3c00367a6970f4b8be38ff1fe58.png": {
+  "bytes": 17018,
+  "sha256": "757488428d61ceeb364dd213b3cc6b778d4bf8a13228f569a5bd006bd4de7790",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/739dc3c00367a6970f4b8be38ff1fe58.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/75aff91624bb108a3834540852290791.png": {
+  "bytes": 641,
+  "sha256": "ae497c3f93f003c5ef12b94eb4a086222d2d8799f4caca04202caa0d4b901291",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/75aff91624bb108a3834540852290791.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/75c143b473dd1af2a8e581cb648438f9.png": {
+  "bytes": 356,
+  "sha256": "20a7e1121f2e7073262794dd24d8f22698dde9aceb874d51bd5acf942e1048ed",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/75c143b473dd1af2a8e581cb648438f9.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/764a0500ee9ee16f31af621faa22370e.png": {
+  "bytes": 1511,
+  "sha256": "95e9e12a3c7184a4878391f8f527b207b2e0914da14cc27582239138a7d7fa2c",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/764a0500ee9ee16f31af621faa22370e.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/77901e508da4b273f1c07e162d92b2c6.png": {
+  "bytes": 726,
+  "sha256": "2bf9bacf083be17b257b90425b29b2c71b2f3975ad9fcc2ba807de2825d0d0bc",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/77901e508da4b273f1c07e162d92b2c6.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/788d66c15d59f03e9def15edf45c82a9.png": {
+  "bytes": 646,
+  "sha256": "fb9414d3e609fbfa9e4a59856caa13fcb822ac85d95d83bf355dfd0302525665",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/788d66c15d59f03e9def15edf45c82a9.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/7a423402a7b8a342e5aa6adb664e0eec.png": {
+  "bytes": 423,
+  "sha256": "a3dbbd7bc64e57a66eb92f741180f927ee34ff53a7bcbf5e1e270c126af4a941",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/7a423402a7b8a342e5aa6adb664e0eec.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/7b1f86c5e226bd488c837b3fe830e40a.png": {
+  "bytes": 695,
+  "sha256": "df223a11061275763f2522d9760cac491a9792a0d2be962a85c5fa315175c22c",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/7b1f86c5e226bd488c837b3fe830e40a.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/c4e6cff5ec81ecb43be90d8186df3012.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/7be652930299e2dbca9eb95aa0822329.png": {
+  "bytes": 1202,
+  "sha256": "8ebda0629ae3be5b84a00264037f0fc47b5a64e7a25e33cb8f3755a9cd1be0d9",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/7be652930299e2dbca9eb95aa0822329.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/7c2b8f2034185fd73ac53760448cb53f.png": {
+  "bytes": 317,
+  "sha256": "6e8a40ddcf136a9b2485516a902e8b9d4a9b9b4835fb02fb182350dd1fe79b63",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/7c2b8f2034185fd73ac53760448cb53f.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/7c8fc59f20c3bb5fc0754745281d6329.png": {
+  "bytes": 1453,
+  "sha256": "4b04573f20a4507972b84bcca441ed67cc8c40c56904f4f0688706fa41b7b9d5",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/7c8fc59f20c3bb5fc0754745281d6329.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/7ca508047a1a85bc60463e52e9eac11a.png": {
+  "bytes": 547,
+  "sha256": "bd3ad2f4b02a09893ac6af593bd3c2531eb32f6cc374fd0113d326de4fd9655f",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/7ca508047a1a85bc60463e52e9eac11a.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/7d6533681391be3b1b7bac1c4d28fcd8.png": {
+  "bytes": 258,
+  "sha256": "de8a856b6d08af1e39cc43441a2364bc32d33a43222258c6d732b085c001a05d",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/7d6533681391be3b1b7bac1c4d28fcd8.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/8003468d6a48c8d8d189aa5f7e307b3c.png": {
+  "bytes": 722,
+  "sha256": "51c7d959ae6ffc0374747c0153f246959f73d8c0a2b8c00fbb923852c61b4c49",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/8003468d6a48c8d8d189aa5f7e307b3c.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/82563ae489fa3e4002ce9bcae012c5dc.png": {
+  "bytes": 745,
+  "sha256": "b8b2d3094c4ba50ec5d1ba66f927c70df0f611a6073f7d1d0fe3cecdfc239c46",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/82563ae489fa3e4002ce9bcae012c5dc.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/833a9685d65b4aaff61ba6ca9d988988.png": {
+  "bytes": 740,
+  "sha256": "3127a9d5bf1320ebb7fa34dea4a1c518ef8b94ad5c94030afc5fe5db697f3baf",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/833a9685d65b4aaff61ba6ca9d988988.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/853222bd5b9f1f48319b9abd92b15610.png": {
+  "bytes": 702,
+  "sha256": "292e9d67398dd8ae9956da65278c895b5922f1bdb10cde7865cf01dbc575d16e",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/853222bd5b9f1f48319b9abd92b15610.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/86960c4a9d865dbf8c5050e3b5d6191d.png": {
+  "bytes": 1203,
+  "sha256": "aa4711514eafabb934cff49d28cbd48fd56f06ec8d7654ba06c935cb2c004d4a",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/86960c4a9d865dbf8c5050e3b5d6191d.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/871974cee033bd98adb1d0b9e09aabce.gif": {
+  "bytes": 2151,
+  "sha256": "79b30459531f9664506b1fa5b738e642f7c4a3fcb3122c5e0ae3319cfcd35744",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/871974cee033bd98adb1d0b9e09aabce.gif"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/8912b6362e8dfc5428acce2d9e682b4f.png": {
+  "bytes": 751,
+  "sha256": "7886d920c9f651420f77f1816c57ffd00e2279a0b6a2b29b974b3c9f8196a674",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/8912b6362e8dfc5428acce2d9e682b4f.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/8b5299a5cbfa22a51e998d45f50f32af.png": {
+  "bytes": 3229,
+  "sha256": "713fcada9f39d9d14dcc67438ff815bad27356ffffe054d912ef083e3ba5d71b",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/8b5299a5cbfa22a51e998d45f50f32af.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/8b7094358453f6b57cac3d3b87f45adb.png": {
+  "bytes": 1541,
+  "sha256": "6d0cf882c666da7c23c5e29a6d819a6fc9a7bf6c2e1e2337fb372cdf33154e7d",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/8b7094358453f6b57cac3d3b87f45adb.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/8f4a6c25d907f52c4883145e4c85b687.png": {
+  "bytes": 677,
+  "sha256": "4a723af1448775e60ebb3d35996ba35f11293ff618d52e557412bb1984969555",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/8f4a6c25d907f52c4883145e4c85b687.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/8f4eb4ff4f770f120aa8c5c8a04f9099.png": {
+  "bytes": 235,
+  "sha256": "f69d1745030bb58233970177401ee9e67f26bc2b376ed7feb19555bd35258393",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/8f4eb4ff4f770f120aa8c5c8a04f9099.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/913f80c11ec19d56c9a9b2f51ec2f4d7.png": {
+  "bytes": 695,
+  "sha256": "28372938b4a2730a21b254e2e4d2aa4b032d39c802f42a9819e1da568519a233",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/913f80c11ec19d56c9a9b2f51ec2f4d7.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/93138e58f6660fa2036ea9ae825f24fb.png": {
+  "bytes": 684,
+  "sha256": "9543c8c74ea776930331032c37f58ab96a38c2bca1ba94162c11b03fd01ea5d3",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/2b3c73c01430261b6d26d0e8faed9b88.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/93138e58f6660fa2036ea9ae825f24fb.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/9be1ec26da5ee6ece58e949c07d91b57.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/b79f6f4a063db23b39d81a0ae46fe7bd.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/cb2252bfd97daa52a1754bbf0debe51e.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/9372be3d7447da26414d0e6c279b9456.png": {
+  "bytes": 431,
+  "sha256": "26a9ab3e73d47ea7b9d46310175e2d683fc97ce5819e63f6fc920ee3b27282dc",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/9372be3d7447da26414d0e6c279b9456.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/9403dae1f849606b462fb2ef3e21e678.png": {
+  "bytes": 951,
+  "sha256": "8e7754b9c99b15ee77c04a9a3ffec1d8cdf146abdf99b22eea6f1528362846d5",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/9403dae1f849606b462fb2ef3e21e678.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/942f5ed03be9c81e63da5d6ec768da19.png": {
+  "bytes": 31161,
+  "sha256": "d0df7dbf096b76bfba3b8aad564cf73fd72033ebdc6051975b72911a2f52e58b",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/942f5ed03be9c81e63da5d6ec768da19.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/98e275561a77643d5c1de87d868b144c.png": {
+  "bytes": 15627,
+  "sha256": "1bc1d8d6c922d95b33af18b794cf4fc4875eb89a656d43698f85dbdd9be3e91d",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/98e275561a77643d5c1de87d868b144c.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/99a5f67ce87529a4b177b9370b22e4d1.png": {
+  "bytes": 684,
+  "sha256": "b9434521df9d4ab03b831438901bee508b81621cec7ec03dc22920ed40ef1f3c",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/18cd8e3064e7446cd0ae3e123ba6680c.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/1c0a3b68a5c4e9e1aa4b9d9d01fc5976.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/99a5f67ce87529a4b177b9370b22e4d1.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/a374d15929663c081ca85bdef294a44d.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/e89179987949f4defe891ac1e52199d6.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/99a6200fa52ed6b54dcf28392cf4457f.png": {
+  "bytes": 963,
+  "sha256": "ebbefc41a8228ed30d64f4b98f04cc4194567b6a8a8013f85597884dd0d73419",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/99a6200fa52ed6b54dcf28392cf4457f.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/9ac2fdaabdef50d7d17cf2642abf65f3.png": {
+  "bytes": 13585,
+  "sha256": "87a66439b2d5f2ab6787a91d7a3f73552f411251e514bc1f59ebc2e8937939fe",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/9ac2fdaabdef50d7d17cf2642abf65f3.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/9be1ec26da5ee6ece58e949c07d91b57.png": {
+  "bytes": 684,
+  "sha256": "9543c8c74ea776930331032c37f58ab96a38c2bca1ba94162c11b03fd01ea5d3",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/2b3c73c01430261b6d26d0e8faed9b88.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/93138e58f6660fa2036ea9ae825f24fb.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/9be1ec26da5ee6ece58e949c07d91b57.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/b79f6f4a063db23b39d81a0ae46fe7bd.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/cb2252bfd97daa52a1754bbf0debe51e.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/9dbd3ded67a568590e6f8129762e1b39.png": {
+  "bytes": 739,
+  "sha256": "02e84d0680f58c379049b537a7846cf01ff63dbcfc41f3411c40c9b4b73dad4f",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/9dbd3ded67a568590e6f8129762e1b39.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/9e21ff0167b30d29c8c7b97cf8b2d8be.png": {
+  "bytes": 3719,
+  "sha256": "e3df113a7e330d0da4ac3321334a824f5bdd8cbee5624beff857a2f29f8c7d56",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/9e21ff0167b30d29c8c7b97cf8b2d8be.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/9f63bdfc5a888aaf00ed013bf79da65f.png": {
+  "bytes": 399,
+  "sha256": "07f8e4c83e2e1e2cfe2a6021fa6dc7ef1005f3445b37b3be39aea86047cbd295",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/9f63bdfc5a888aaf00ed013bf79da65f.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/a1e4af40545590fd2ed2f7c44e122d05.png": {
+  "bytes": 19395,
+  "sha256": "137716866dbb16ad9e025900f74a74877c73345d693b8f53e60ff84ff9a4de09",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/a1e4af40545590fd2ed2f7c44e122d05.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/a374d15929663c081ca85bdef294a44d.png": {
+  "bytes": 684,
+  "sha256": "b9434521df9d4ab03b831438901bee508b81621cec7ec03dc22920ed40ef1f3c",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/18cd8e3064e7446cd0ae3e123ba6680c.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/1c0a3b68a5c4e9e1aa4b9d9d01fc5976.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/99a5f67ce87529a4b177b9370b22e4d1.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/a374d15929663c081ca85bdef294a44d.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/e89179987949f4defe891ac1e52199d6.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/a483b20d1bcb79d9deb740488d4666bf.png": {
+  "bytes": 563,
+  "sha256": "6777008005f30b01569bbd67e655af332d738dad6460876d0f93c84a133cd6ea",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/a483b20d1bcb79d9deb740488d4666bf.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/a531a0e00e866438ce85b66893d36582.png": {
+  "bytes": 640,
+  "sha256": "c71aa222e1a9738be10d05e3c771754c8789a3188c8c667ef614749d889ccf30",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/a531a0e00e866438ce85b66893d36582.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/a74a46a43b3498fc4cdf5359ee8e65f4.png": {
+  "bytes": 313,
+  "sha256": "44677545bb56042d91aed06d82d5cf966498e705658c1764b2cbb50cabd5e931",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/a74a46a43b3498fc4cdf5359ee8e65f4.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/a74d7f11e2f23dae2e2e59b389ea34e7.png": {
+  "bytes": 31656,
+  "sha256": "ae9781bcd251daae0723b4f344ffcb8fdf4ca680bb03d377030c58f492a138d4",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/a74d7f11e2f23dae2e2e59b389ea34e7.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/a83a2d36bc11be7c6752b110a4de6faa.png": {
+  "bytes": 173,
+  "sha256": "ca9b4ba08b94e44fc73c50c221904d47d66f1be9ed5787de4202e9a1f2c0eaf9",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/a83a2d36bc11be7c6752b110a4de6faa.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/aae9307bd7cd6ea678cde3ef5e4d9d53.png": {
+  "bytes": 2887,
+  "sha256": "62c94f3772536f07da59585b1038046c5402311a5125c92d8142657ee1dc6b4a",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/aae9307bd7cd6ea678cde3ef5e4d9d53.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/ab367a1540258c9eb152f725564b9e52.png": {
+  "bytes": 388,
+  "sha256": "1ef702250ba44374a8e68d8f9624a1642248d77cafec1cd8ef9aa92f95ccbd96",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/ab367a1540258c9eb152f725564b9e52.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/ac606f6aec1ddb4b8fdea2e06e04466f.png": {
+  "bytes": 888,
+  "sha256": "15b85186b64b0007a9291f101f663aa3f6a19add29837766a4a80e10bd6920dd",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/ac606f6aec1ddb4b8fdea2e06e04466f.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/ad1fa0341f52336a8c6ef2a426d43756.png": {
+  "bytes": 685,
+  "sha256": "4547867069d1003e4d70ba6f0f57e6517a4a23737b7643c18371b295ede584d2",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/ad1fa0341f52336a8c6ef2a426d43756.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/ae85c07a1ad44bd9135f808614be9857.png": {
+  "bytes": 1459,
+  "sha256": "6d3972edee1db34ff58529005b3d6016a153cdfbcb1be96a5dc55087e68afa17",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/ae85c07a1ad44bd9135f808614be9857.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/af1907601b5efb9a4c26cb93a812217c.png": {
+  "bytes": 165,
+  "sha256": "17510dd8758d40742f7ef2d94827b667305dad3f0b68ef388dae0d112727a541",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/af1907601b5efb9a4c26cb93a812217c.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/b1749deca33abde47e7af7b616acc307.png": {
+  "bytes": 2865,
+  "sha256": "4b54e2203543143de6e8fa67ddd1722880e208c1d6771baf8156a46ee1f5a453",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/b1749deca33abde47e7af7b616acc307.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/b1a1ffa361af6a265d91b9ea68e5a9aa.png": {
+  "bytes": 535,
+  "sha256": "9d0fa9f916548b826fe657eea1c4bc03bc2e01b7ec25388f0ca45831c80c0152",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/b1a1ffa361af6a265d91b9ea68e5a9aa.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/b2bac61010dcc6fb9d553cbe84de5f31.png": {
+  "bytes": 2488,
+  "sha256": "153b7dc5255e4d21250fc32d567603abc197aff89a9c1ec6ecc98fe99cb1afa7",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/b2bac61010dcc6fb9d553cbe84de5f31.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/b4686d923c47844d2adae46cc5a14a66.png": {
+  "bytes": 725,
+  "sha256": "a8f954877e5ce61e8f569de74c7097c483ac12a775e080c17257c378fa4b0340",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/b4686d923c47844d2adae46cc5a14a66.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/b79f6f4a063db23b39d81a0ae46fe7bd.png": {
+  "bytes": 684,
+  "sha256": "9543c8c74ea776930331032c37f58ab96a38c2bca1ba94162c11b03fd01ea5d3",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/2b3c73c01430261b6d26d0e8faed9b88.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/93138e58f6660fa2036ea9ae825f24fb.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/9be1ec26da5ee6ece58e949c07d91b57.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/b79f6f4a063db23b39d81a0ae46fe7bd.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/cb2252bfd97daa52a1754bbf0debe51e.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/b821ad73f4875bcaf82e83c324835709.png": {
+  "bytes": 704,
+  "sha256": "aad46c8f8f738f3f7ac26d8ed496053c9b0777eb00faa3acb5fe2c7535ba090f",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/b821ad73f4875bcaf82e83c324835709.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/b85e975484c72083d4dad435d9eedd31.png": {
+  "bytes": 1020,
+  "sha256": "c37850f1c36a99d67e0cbc124904dd4737db406cc6dbefc741b53abf871fc0d0",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/b85e975484c72083d4dad435d9eedd31.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/ba1d999fb0b9089ad8bd6a6d5b82abc4.png": {
+  "bytes": 424,
+  "sha256": "982be38a223e93fecc5586b85192a19006ac33e5034da391c23853d494273016",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/ba1d999fb0b9089ad8bd6a6d5b82abc4.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/ba5074e36ea4641c81e33f1679b091a4.png": {
+  "bytes": 567,
+  "sha256": "38d8f30cb7c08ea826b4b266f428cf24e1d496b85a77eb698fe9f3efa26563b5",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/ba5074e36ea4641c81e33f1679b091a4.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/ba72a2e1cd02da7d39c1c9a0101cdd6f.png": {
+  "bytes": 699,
+  "sha256": "769c97526895e375fa283f463a5933cceb366c0bf078187661b9d88cf55887fc",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/ba72a2e1cd02da7d39c1c9a0101cdd6f.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/bb06cbc45b5a4d331de72ff67bea0427.png": {
+  "bytes": 446,
+  "sha256": "5f348b5641f8da0b53c2b405bebd2f74c349876ca9bb6b61f31b8550aa75aae9",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/bb06cbc45b5a4d331de72ff67bea0427.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/bbb7e3513e4212fee1593e184e9bfc74.png": {
+  "bytes": 614,
+  "sha256": "463f2db4bb6556aefaaa8ce472a4040b0e820724cd5cb99a8a9f5a9f5ba8859d",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/bbb7e3513e4212fee1593e184e9bfc74.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/bbce5c9be6afec7936139de64a858e81.png": {
+  "bytes": 16236,
+  "sha256": "a3bbb978c8797819d7d5420c5e203d688c571891abfa004612cb67d1d7032001",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/bbce5c9be6afec7936139de64a858e81.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/bdcf1c106f9607be6ef3e6940018f987.png": {
+  "bytes": 1017,
+  "sha256": "b82518d0226b00fc2cda719b5b5cd738dd83cd6a06d05ff8cb22a638a668f804",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/bdcf1c106f9607be6ef3e6940018f987.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/bf798fce46eaf6344b74d90df5f3e28f.png": {
+  "bytes": 28381,
+  "sha256": "a3763c409c7770ef66364c1ddd4244bd4b08b106a0ce4f96338c2552f23c7c87",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/bf798fce46eaf6344b74d90df5f3e28f.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/bf7c6bebdaa1c77c7ca366afd1c9858d.png": {
+  "bytes": 890,
+  "sha256": "29784a4323aec258008577829b3efbd86e718d27021ea89a59d8630b2e2f20f8",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/bf7c6bebdaa1c77c7ca366afd1c9858d.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/c0175985c0514ed6282d1e5d0cc479a2.png": {
+  "bytes": 133,
+  "sha256": "8d81d98667a6ebc2a2d942109e1774f27642486a0bde11587e03033a0e2e3ceb",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/c0175985c0514ed6282d1e5d0cc479a2.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/c1b991cf880b84537b8a12b8d19a4e28.png": {
+  "bytes": 755,
+  "sha256": "f3b27f7ee195cf6489410ce86b5daad435579acad70e5dfab42055f86ba033c4",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/c1b991cf880b84537b8a12b8d19a4e28.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/c40c7bcce37f57ee4a077b0fd339b7b6.png": {
+  "bytes": 341,
+  "sha256": "ad6517a9567f9b1fc8be1b282edfdb21a97310fe5dc800c139a709fcb26f7a4b",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/c40c7bcce37f57ee4a077b0fd339b7b6.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/c4e6cff5ec81ecb43be90d8186df3012.png": {
+  "bytes": 695,
+  "sha256": "df223a11061275763f2522d9760cac491a9792a0d2be962a85c5fa315175c22c",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/7b1f86c5e226bd488c837b3fe830e40a.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/c4e6cff5ec81ecb43be90d8186df3012.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/c6efde1db175c7dd30069114772e0d72.png": {
+  "bytes": 1513,
+  "sha256": "f74b5b5072cfdbbe623a09f850f9fda74dfb582b5dafbed57c25959ed69055a8",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/c6efde1db175c7dd30069114772e0d72.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/c9c0ff9b14e2f92e00545cb9d3f16f96.png": {
+  "bytes": 606,
+  "sha256": "ca8000f69bcb362b2c73eea04cf8fc17cc823a937b799865dd9d9225e35a7b93",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/c9c0ff9b14e2f92e00545cb9d3f16f96.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/cb2252bfd97daa52a1754bbf0debe51e.png": {
+  "bytes": 684,
+  "sha256": "9543c8c74ea776930331032c37f58ab96a38c2bca1ba94162c11b03fd01ea5d3",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/2b3c73c01430261b6d26d0e8faed9b88.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/93138e58f6660fa2036ea9ae825f24fb.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/9be1ec26da5ee6ece58e949c07d91b57.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/b79f6f4a063db23b39d81a0ae46fe7bd.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/cb2252bfd97daa52a1754bbf0debe51e.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/cbe110c87110adfea510341e68996b5b.png": {
+  "bytes": 1388,
+  "sha256": "d5518514cc91bda905471a7d6207b53d98de024c421fd03c5eb068dca28fe1b0",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/cbe110c87110adfea510341e68996b5b.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/cc34d59ea83512bea4a65e64cb3acf7f.png": {
+  "bytes": 40367,
+  "sha256": "be66c1280f40d42f4bce2cc51a871d52ce4ae65f0fb9ccdd4cd8e512076d38c0",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/cc34d59ea83512bea4a65e64cb3acf7f.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/d09cb00dc3daad7a89d3994d6c2202a2.png": {
+  "bytes": 724,
+  "sha256": "9bfa7c071c4fa8355380212b82b96d8e71fef8e085a789a23312c97fa26e957a",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/d09cb00dc3daad7a89d3994d6c2202a2.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/d22cdb7a1509af066eb1b58dad657921.png": {
+  "bytes": 3212,
+  "sha256": "882da1e44fe031c8baee2694e73e74cc447a8d0241d99940843f3510b78b3765",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/d22cdb7a1509af066eb1b58dad657921.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/d3a1848989b7ce9d297a723ec461db29.png": {
+  "bytes": 635,
+  "sha256": "6766458ae67eb16cfa12e78c099936c3f36dcafadc008f1d868fa2090ac50eb3",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/d3a1848989b7ce9d297a723ec461db29.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/d3a252b071d2b4a88c06f204b719cef9.png": {
+  "bytes": 652,
+  "sha256": "b8df65ace42f7bf8f73f1884d6bc12c99b5843b8365a0a996ab76e1f6b5c355e",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/d3a252b071d2b4a88c06f204b719cef9.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/d83e8ca11377ea37012cdf33d7b51cb5.png": {
+  "bytes": 49744,
+  "sha256": "f9ef5f85de8ef530ff00109550192f1a45d8e82546dbc8f145cafbcf4850797b",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/d83e8ca11377ea37012cdf33d7b51cb5.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/db10ca159464689f8ef2e410c17ae1ef.png": {
+  "bytes": 542,
+  "sha256": "d09030b0e73901fd12ce9498c47da16296bd16a12834c4201d2a503c1bf9174c",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/db10ca159464689f8ef2e410c17ae1ef.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/db2779fd129aeb841a2caafa9e271370.png": {
+  "bytes": 3487,
+  "sha256": "99e08c0f017c2c22cb6d1f9382b0387899902f3a42ad2167c078161258deb464",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/db2779fd129aeb841a2caafa9e271370.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/db464c65f15206aa53ee9c026cf351aa.png": {
+  "bytes": 1274,
+  "sha256": "3d4933faf299be40d66f33e05f2bb76f3938384d167f1842b88a963b6afbd7a6",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/db464c65f15206aa53ee9c026cf351aa.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/dbfb410789c7bd88450add7de2e2d101.png": {
+  "bytes": 917,
+  "sha256": "943de23d2257188c71c3b00f63e7c8a6079ca50b2728b2d7489cb88be096d15e",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/dbfb410789c7bd88450add7de2e2d101.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/e04c5234c31ae5178efb91040407aef4.png": {
+  "bytes": 636,
+  "sha256": "7c44d026171ed3327ac9f945978cd51155f8d06df1e9efe1e2208cdfb8a02325",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/e04c5234c31ae5178efb91040407aef4.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/e157513ec129b4ff0198e12a42b86e8e.png": {
+  "bytes": 1519,
+  "sha256": "72468248f015a5195bbe0c76476cf3feaa57046c6f52b20fed559b1f183320aa",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/e157513ec129b4ff0198e12a42b86e8e.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/e2d0cb06720c9859ae9e4baae99d7d79.png": {
+  "bytes": 764,
+  "sha256": "fcf37d309f1ee96b97abef8078beaca42efeb62056515aa6edc9d894ec5adaef",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/e2d0cb06720c9859ae9e4baae99d7d79.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/e6ff9797f4d0a0008a6483bfe2adeef7.png": {
+  "bytes": 629,
+  "sha256": "19a71b806827184df3dc50e7e73d5f6e3072cb437698f454e62f83709eaaaad8",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/e6ff9797f4d0a0008a6483bfe2adeef7.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/e711e10de6097eee35a7c2d27517b215.png": {
+  "bytes": 1717,
+  "sha256": "3b248c2acf4f32a6c6eca326b2d727f6bed5b7e18f0e6c02ceb4a734a42144ae",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/e711e10de6097eee35a7c2d27517b215.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/e7a227ed88a7c3afdc89218bd7eac1f1.gif": {
+  "bytes": 469661,
+  "sha256": "34b0747e59767c5fce0b23e6a2040db6831789c08f4c47aa33e50710153ecd5d",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/e7a227ed88a7c3afdc89218bd7eac1f1.gif"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/e89179987949f4defe891ac1e52199d6.png": {
+  "bytes": 684,
+  "sha256": "b9434521df9d4ab03b831438901bee508b81621cec7ec03dc22920ed40ef1f3c",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/18cd8e3064e7446cd0ae3e123ba6680c.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/1c0a3b68a5c4e9e1aa4b9d9d01fc5976.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/99a5f67ce87529a4b177b9370b22e4d1.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/a374d15929663c081ca85bdef294a44d.png"
+   ],
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/e89179987949f4defe891ac1e52199d6.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/e9a6d6b92573759f99a78cc1273919e5.png": {
+  "bytes": 2729,
+  "sha256": "b3a73a419e9f88aa4343264511e7145428cfdacf4562463ecc76a13a61429409",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/e9a6d6b92573759f99a78cc1273919e5.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/ea75e5132cc3ade400174b85417f1735.png": {
+  "bytes": 1592,
+  "sha256": "6181426ddb750474fddda5f3f70f8705253fce097188323990f495151ca07a0a",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/ea75e5132cc3ade400174b85417f1735.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/ec1f7e979c1c6d648722029900d8c387.png": {
+  "bytes": 797,
+  "sha256": "d69a7b40f884138796dfd96daab5581ac0c9665a0893db00bc6f207b49867e6a",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/ec1f7e979c1c6d648722029900d8c387.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/ed028473cb8a80e4914d0ec86d08d5ea.png": {
+  "bytes": 75831,
+  "sha256": "fe6f3b10fefd5b78c7ae8797e0bfce350e798efe9248c5d53f3d35cdd9ea2fd5",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/ed028473cb8a80e4914d0ec86d08d5ea.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/eeb9df97bf26644a9273e117541b2e10.png": {
+  "bytes": 140,
+  "sha256": "cc1576dfb0b40dc6219f39ec9ccd6f913a224701b52ce16fe90d5df7e50d2951",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/eeb9df97bf26644a9273e117541b2e10.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/ef2f15349bdeeb1be48da8beca05cf75.png": {
+  "bytes": 40020,
+  "sha256": "4a97b0186e774eb845109cea6a1eee1c4c04a5271f46c86997cf448a6633653f",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/ef2f15349bdeeb1be48da8beca05cf75.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/f3937643661e68fa0b2b0b9ea30c157a.png": {
+  "bytes": 804,
+  "sha256": "a41cce131a9bf536ea9ae4e7fa158396da5f9b5a2f51a602d1e0d009f8060825",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/f3937643661e68fa0b2b0b9ea30c157a.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/f616faa80c6b4179b8772b1066c174cc.png": {
+  "bytes": 37556,
+  "sha256": "e9f676abf4d546a7d601eef509cff5d1746569715311571c4883f92cb98b5b67",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/f616faa80c6b4179b8772b1066c174cc.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/f9e325e20e58e95b3c011bf1454152e1.png": {
+  "bytes": 976,
+  "sha256": "3302b809dfefa446394da69b20814e780bfda96d6a1a6058f275f384f4003eab",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/f9e325e20e58e95b3c011bf1454152e1.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/fc040c7da01dd8e4788347d8bb61bf1a.gif": {
+  "bytes": 560,
+  "sha256": "b3293a06d51e684698ee6a9b8ef8c6d18ce2117a4a4d3324777a86ad15ba1a72",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/fc040c7da01dd8e4788347d8bb61bf1a.gif"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/fc38e337eafc5a1e77a7a1b6621192f4.png": {
+  "bytes": 1401,
+  "sha256": "4e71d4f1fe4c08851d3165f9de5fa5383d52182178c9d1396d861d8d1f6409b2",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/fc38e337eafc5a1e77a7a1b6621192f4.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/fe9647f830e83e4c84f803b35eda48b6.png": {
+  "bytes": 1541,
+  "sha256": "b8fe45248d582f8d26e084d7142fa6356fb0e369bf7ca3b5c46f344f979d17cf",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/fe9647f830e83e4c84f803b35eda48b6.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/images/ff827bfa744418867304956b187544aa.png": {
+  "bytes": 593,
+  "sha256": "a13fa65a543641a6d27f3e013fda97542eb33a710a3f64d189e87a385aa68949",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/images/ff827bfa744418867304956b187544aa.png"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/index-3244a59e.js.bin": {
+  "bytes": 3377,
+  "sha256": "536d3a181a48a8dd5945fd11a1e63a6997d8053cda3a0821614d6194825d77df",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/index-3244a59e.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/index.js.bin": {
+  "bytes": 31321,
+  "sha256": "9f6895b6280303ef7f1bf66b098aac8c33a5c7dd682aef52620a53a6b2a89e0e",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/index.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/kaishu-f555c77d.js.bin": {
+  "bytes": 169,
+  "sha256": "4bfd3c812ed2192cc1a026245c4ccf2ec8b58142df8fda5c35e3099a457ac8d8",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/kaishu-f555c77d.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/libs/libbusiness_lookup_1502624685.so": {
+  "bytes": 1460704,
+  "edits": [
+   [
+    1441233,
+    98,
+    97
+   ],
+   [
+    1442291,
+    48,
+    53
+   ],
+   [
+    1442292,
+    55,
+    48
+   ],
+   [
+    1442295,
+    54,
+    50
+   ],
+   [
+    1442296,
+    55,
+    52
+   ],
+   [
+    1442297,
+    48,
+    54
+   ],
+   [
+    1442298,
+    57,
+    56
+   ],
+   [
+    1442299,
+    51,
+    53
+   ]
+  ],
+  "sha256": "a11d217201fe4bf606f97b427b55e94de1de584facdcbb7cfc8b2b407139ee0f",
+  "source_sha256": "2b2cc1ce0fde01e0271f48903ab6a43aee400f577163e11506b50fe3da0d022d",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/libs/libbusiness_lookup_1072667093.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/libs/libjsapi_lookup_1502624685.so": {
+  "bytes": 314752,
+  "edits": [
+   [
+    313651,
+    98,
+    97
+   ],
+   [
+    314706,
+    48,
+    53
+   ],
+   [
+    314707,
+    55,
+    48
+   ],
+   [
+    314710,
+    54,
+    50
+   ],
+   [
+    314711,
+    55,
+    52
+   ],
+   [
+    314712,
+    48,
+    54
+   ],
+   [
+    314713,
+    57,
+    56
+   ],
+   [
+    314714,
+    51,
+    53
+   ],
+   [
+    314739,
+    48,
+    53
+   ],
+   [
+    314740,
+    55,
+    48
+   ],
+   [
+    314743,
+    54,
+    50
+   ],
+   [
+    314744,
+    55,
+    52
+   ],
+   [
+    314745,
+    48,
+    54
+   ],
+   [
+    314746,
+    57,
+    56
+   ],
+   [
+    314747,
+    51,
+    53
+   ]
+  ],
+  "sha256": "65578e9ea5634315a82de9b4ca811a8c27c204b11d7c5bf2d0667a7ea69b32fd",
+  "source_sha256": "069f4dc035ab31209d13ace87b9d7ce37f4a5356f7ad07f66947254eb8641600",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/libs/libjsapi_lookup_1072667093.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/logManager-05669496.js.bin": {
+  "bytes": 168,
+  "sha256": "4f17eec985c0eeb89b4ec40dca74c6e6360d917fba6668c1776cad017ad8922a",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/logManager-05669496.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/lookupWordManager-3c9fb197.js.bin": {
+  "bytes": 183,
+  "sha256": "b8f88e006503ed0e6c5bb3b65668f6094aa306e732f4a1d16b19f267f75f77b1",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/lookupWordManager-3c9fb197.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/lookupWordManager-8468dffa.js.bin": {
+  "bytes": 183,
+  "sha256": "04935c65a375291b7607bcc15e4f38edf80c4ed71a1529a0e01386a42f15c933",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/lookupWordManager-8468dffa.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/manifest.json": {
+  "bytes": 29026,
+  "sha256": "e7d2613239d2b4e43d62352f339d955eeeed37820a0eef8bab7c38d32967e4b5",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/manifest.json"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/page.js.bin": {
+  "bytes": 345,
+  "sha256": "22146ba1c77991b2427b953d7b666aa0212390c71ea3115dde8e9217bad0e8a6",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/page.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/poemAdditional.js.bin": {
+  "bytes": 14007,
+  "sha256": "e44bcd868a9ab2a6018f0b4489c33b75c8ecfd350ad6f3f680545259e5c00432",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/poemAdditional.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/scantransl.js.bin": {
+  "bytes": 1044,
+  "sha256": "8b642b808b822d58bd62eeec7719cb5364eb5ee32215265b9c66b6787845ad2a",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/scantransl.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/services/lookup.js.bin": {
+  "bytes": 4626,
+  "sha256": "7f3b03880cf209219880400286e1f8f7ff783d095a21ce6a7f3bb9e6e39f5a16",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/services/lookup.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/showAbroadDetail.js.bin": {
+  "bytes": 2940,
+  "sha256": "ee0c30c7efe8fcd4e2308b0183923d536a721b7e394af2e6c6aa0abe6bfb7c02",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/showAbroadDetail.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/showDetail.js.bin": {
+  "bytes": 7907,
+  "sha256": "38ffae7324c278bc5a67aff2a56a5e1cd07dce6180fbfe457c34ebb6ad68def3",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/showDetail.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/showDetailFixedCollocation.js.bin": {
+  "bytes": 7034,
+  "sha256": "23ac98811679859400e262fd75366c7a2801bd15bd5602b99db2ffc2c00567ee",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/showDetailFixedCollocation.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/showDetailSynonyms.js.bin": {
+  "bytes": 8852,
+  "sha256": "06157ba074edb0984619ae7a8a5a2e9e153736ff6aad7dfeae89859934d4433f",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/showDetailSynonyms.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/showDictDetailCELarge.js.bin": {
+  "bytes": 20681,
+  "sha256": "e5873fb91178461db388ed72b4b256bac3248445942cdaa3fff7d45062260d6d",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/showDictDetailCELarge.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/showDictDetailDtBusinessAnChPage.js.bin": {
+  "bytes": 9472,
+  "sha256": "b507888cb99ab6973a4163ce10a2b23b880d99e7d906d35f32c6ef1f2e83de2b",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/showDictDetailDtBusinessAnChPage.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/showIdmGsDivList.js.bin": {
+  "bytes": 12383,
+  "sha256": "9b75502114d425def8b5b44003a2a58c9bcb8e36892b56edbbeff793e7740d08",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/showIdmGsDivList.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/showIndividualDetail.js.bin": {
+  "bytes": 3075,
+  "sha256": "aa027b3e9b57642aef4b8cb9a0375f886d95f3ef9f138e9f8b1547579ecc80af",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/showIndividualDetail.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/showOxfordDetail.js.bin": {
+  "bytes": 135121,
+  "sha256": "220001291feb8ac543371821df22fd65cffd878526cd564f51bdf4d13dca7827",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/showOxfordDetail.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/showPoemAnnotaitonDetail.js.bin": {
+  "bytes": 8584,
+  "sha256": "e2a26b3e620b6232b62432c2d9e4f2d0630b80c0be27378087ac241229a32673",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/showPoemAnnotaitonDetail.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/showPoemAppreciationDetail.js.bin": {
+  "bytes": 7175,
+  "sha256": "8dac2213906ca6093d1b81cf3e5db3ffdafeff257f05f6172abf7ffc29a79a96",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/showPoemAppreciationDetail.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/showPoemAuthorDetail.js.bin": {
+  "bytes": 7874,
+  "sha256": "f9d8a4a80d07967644303d4151c8dffd0acc66f7ec078b1d91675aad5955a839",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/showPoemAuthorDetail.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/showPoemOriginDetail.js.bin": {
+  "bytes": 16187,
+  "sha256": "c7119e13018a9d3519bd4c39c10041afc2805fc2ce075091ee24cc167f6fb784",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/showPoemOriginDetail.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/showPoemTranslationDetail.js.bin": {
+  "bytes": 12818,
+  "sha256": "7bdcef99ee197a53438dd27d0245adb5ee5426e668c8ca7f6e091a247153195f",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/showPoemTranslationDetail.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/showPolyPhone.js.bin": {
+  "bytes": 14623,
+  "sha256": "e5f91a019d110914b31c7a535df2d08f151afee77afd36e054632684f64aeac9",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/showPolyPhone.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/showPvGsDivList.js.bin": {
+  "bytes": 9666,
+  "sha256": "bb8f177fb7e1042f4c16c8b83b594e67a0a1a601ecfb9f402a05a87e0257e9ef",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/showPvGsDivList.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/showWebsterDetail.js.bin": {
+  "bytes": 3548,
+  "sha256": "8cc63a0420e0499571d7c9d6aa7864c4bb243a4df5afd79f9a9706e2e119694b",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/showWebsterDetail.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/soundPlayerManager-61a2ec34.js.bin": {
+  "bytes": 186,
+  "sha256": "951ff061476e03e6189a4a9ee77f3490ffa6c41d87d01120ed66ae25908e5d43",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/soundPlayerManager-61a2ec34.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/spellManager-d455a43e.js.bin": {
+  "bytes": 8137,
+  "sha256": "23656b7d90c6f4661b8dfc8dc02678bf794cda3ff78c7930435e0d6794bfcc05",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/spellManager-d455a43e.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/lookup-package/vertical_line-b7b41895.js.bin": {
+  "bytes": 116,
+  "sha256": "7855fda7b4d3bbfbb7c6fdd43e47012f4210f5c015ff9c68a2a8758631787bb7",
+  "sources": [
+   [
+    "user",
+    "miniapp/data/mini_app/pkg/8080252464522508/b/vertical_line-b7b41895.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/miniapp": {
+  "bytes": 6152,
+  "sha256": "2354595fdb30fb7c3f8be7f0a65ae161ee0faab3b87d546e69f922b80b6f4fa3",
+  "sources": [
+   [
+    "factory",
+    "usr/bin/miniapp"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/.gitignore": {
+  "bytes": 218,
+  "sha256": "dae315d7d716a806dd772fcab09380eb3945b4087b22d72c4f72f42792b3e586",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/.gitignore"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/cfg.json": {
+  "bytes": 733,
+  "sha256": "489f04017fc5ef0fc14b42959ffac71d7dd3bc83086aabc97f1a81d38b424c2a",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/cfg.json"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/env.json": {
+  "bytes": 4,
+  "sha256": "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/env.json"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/Adobe.otf": {
+  "bytes": 10149768,
+  "sha256": "468e526d7e2b7493ab2edea7453f5c7f9666b77880172f7fa90028c30b020b48",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/Adobe.otf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/Alibaba-PuHuiTi-Regular.otf": {
+  "bytes": 7291828,
+  "sha256": "af8f7e04c3bab5dba42925225b17fe61955834c5bad03ae344f6db62338a005c",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/Alibaba-PuHuiTi-Regular.otf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/Castoro-Italic.ttf": {
+  "bytes": 128064,
+  "sha256": "4a4c5417efa66061792f85b98047f78f152a4f63bc3bf35f9d425b5069dece93",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/Castoro-Italic.ttf"
+   ],
+   [
+    "factory",
+    "usr/lib/fonts/Castoro-Italic.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/Castoro-Regular.ttf": {
+  "bytes": 124916,
+  "sha256": "f7fff7a39c0a8ce9d51103c51cbf0588068e9beca6f512c3ac594fea21f4d0c6",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/Castoro-Regular.ttf"
+   ],
+   [
+    "factory",
+    "usr/lib/fonts/Castoro-Regular.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/HarmonyOS_Sans_SC_Bold.ttf": {
+  "bytes": 8158996,
+  "sha256": "43a424b85e47fb53a17b3b32026a71801f86f8e022ca6798d186b47d39fa5f01",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/HarmonyOS_Sans_SC_Bold.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/HarmonyOS_Sans_SC_Medium.ttf": {
+  "bytes": 8227312,
+  "sha256": "6ed1553edccddc48eb27ff25d134a4a715cf54211238d4840b3038576cba1944",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/HarmonyOS_Sans_SC_Medium.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/HarmonyOS_Sans_SC_Regular.ttf": {
+  "bytes": 8261128,
+  "sha256": "297b088424be212207df2ce8b98e335468b782aa6b96832af0b8b773d711e2b1",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/HarmonyOS_Sans_SC_Regular.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/LICENSE.txt": {
+  "bytes": 11560,
+  "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/LICENSE.txt"
+   ],
+   [
+    "factory",
+    "usr/lib/fonts/LICENSE.txt"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoNaskhArabic.ttf": {
+  "bytes": 196420,
+  "sha256": "a2eaeb53ca5046f33f798d440bc89f478cd339a4d661baae0dd88af8b55750ed",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoNaskhArabic.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSans-Bold.ttf": {
+  "bytes": 415132,
+  "sha256": "68bdd57a1e1e62663a0b372c7224204b82a89820b9cf30391337f61f0c5e7123",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSans-Bold.ttf"
+   ],
+   [
+    "factory",
+    "usr/lib/fonts/NotoSans-Bold.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSans-BoldItalic.ttf": {
+  "bytes": 290436,
+  "sha256": "8bedb0127e914ac3ade237b402d33e573acc4bdba0b9e3981272cae34ff9857a",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSans-BoldItalic.ttf"
+   ],
+   [
+    "factory",
+    "usr/lib/fonts/NotoSans-BoldItalic.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSans-Italic.ttf": {
+  "bytes": 279268,
+  "sha256": "7d614e7ee6d32cfba2631bf986bc7ec65a1d9973bb414cb9e5aeb7dad85c8787",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSans-Italic.ttf"
+   ],
+   [
+    "factory",
+    "usr/lib/fonts/NotoSans-Italic.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSans-Regular.ttf": {
+  "bytes": 414820,
+  "sha256": "9e9b4c53bd25cad9c04d370f133a5e32d166d0d54e2a9ad6cba4a31fcd382d5b",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSans-Regular.ttf"
+   ],
+   [
+    "factory",
+    "usr/lib/fonts/NotoSans-Regular.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSansArmenian.ttf": {
+  "bytes": 93048,
+  "sha256": "393579210c43a4ca78e6fc0d24ad75cf8f287c7c1efcdf2778df57442626cc95",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSansArmenian.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSansBengali.ttf": {
+  "bytes": 531812,
+  "sha256": "dc0e334c70406b5719e01440c7527e9f2fcce7295935f8839581161dc4a629fa",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSansBengali.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSansEthiopic.ttf": {
+  "bytes": 228444,
+  "sha256": "d86ed0b304d11d5cbc1128f637bdbd04ad5f70c1876ec51fa1f49d5f2807db7d",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSansEthiopic.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSansGujarati.ttf": {
+  "bytes": 204360,
+  "sha256": "a8c5d551ad944d505a72260ade951685b0122ad3a629049b8ff248253e42a53e",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSansGujarati.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSansGurmukhi.ttf": {
+  "bytes": 141720,
+  "sha256": "2dc757563bb67fbf4bf0185b016f6181208fd4f3c48b6fc3bc517f3948a2cd1f",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSansGurmukhi.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSansHebrew.ttf": {
+  "bytes": 17388,
+  "sha256": "0c98b58b91705dab3c288817eade459c7e7c353cd4584a3cfa9fd105921390ae",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSansHebrew.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSansJP.otf": {
+  "bytes": 4548208,
+  "sha256": "34b41de3f65166440ea2ce40121eb1c9b9c2bb92d188bd32a8e6091cd92316db",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSansJP.otf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSansKR-Medium.otf": {
+  "bytes": 4768768,
+  "sha256": "256bb06b91d974ddbc0e3c063c85522cda6187cc638f0c6ae5d752efa63fe093",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSansKR-Medium.otf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSansKR-Regular.otf": {
+  "bytes": 4744692,
+  "sha256": "29445948e432137e0de104dec389e956d72633aa0e4cb04ca572bb8e378e3d35",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSansKR-Regular.otf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSansKhmer.ttf": {
+  "bytes": 53036,
+  "sha256": "20efdb65eb71e000932100c53cc0685c01995675494cf955c1a0c62550cca23f",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSansKhmer.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSansLao.ttf": {
+  "bytes": 19660,
+  "sha256": "446c955c55ce2d2722e93029ca1c2c8e566fe38788cb5f8f40a6c0de189b0b35",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSansLao.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSansMalayalam.ttf": {
+  "bytes": 390544,
+  "sha256": "537e488ae0944d7fd277ce8773d15266231c75d8be48c5d4d9969120906ebc90",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSansMalayalam.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSansMyanmar.ttf": {
+  "bytes": 196004,
+  "sha256": "06b818a06a612231181e74b3b31e186a6aef65dca2d4d98857e1b8aaab38b7f6",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSansMyanmar.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSansSC-Regular.otf": {
+  "bytes": 8481960,
+  "sha256": "63fdadb47c21197170f3cda6c60e98e481b8a1eb28e5f44102da51bec17d123b",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSansSC-Regular.otf"
+   ],
+   [
+    "factory",
+    "usr/lib/fonts/NotoSansSC-Regular.otf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSansSinhala.ttf": {
+  "bytes": 216516,
+  "sha256": "35d536428982968b8a2559b226dc342f4a3dc7f1c0dd05b961bf0b3e8217e2c9",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSansSinhala.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSansTelugu.ttf": {
+  "bytes": 663496,
+  "sha256": "50982f2b26237056d8d9582489428c045fc82ef0d5e13df86385a204924c3a9c",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSansTelugu.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSansThai-Medium.ttf": {
+  "bytes": 21796,
+  "sha256": "57f64e876e966fd6609045471b810dbebeac91b6ad0931419c7883d1eecc5141",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSansThai-Medium.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSansThai-Regular.ttf": {
+  "bytes": 21720,
+  "sha256": "1c393689b64b48945fdb14bf1a211c42a2dede6b1e8d73adb603d4571cff96bb",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSansThai-Regular.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSerifDevanagari.ttf": {
+  "bytes": 724676,
+  "sha256": "3feb2c71219814a47b484448654b3c1c6d81ad53003940609a136d2ae7e5e497",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSerifDevanagari.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSerifGeorgian.ttf": {
+  "bytes": 226204,
+  "sha256": "180c827440da45d557ddbe59d7f59cf6d8228bb47fab527f62b36a2a5b807f22",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSerifGeorgian.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSerifKannada-Regular.ttf": {
+  "bytes": 144376,
+  "sha256": "153f50fe1b843809df2764afc9dc250e6eaf64f74fd351547a9bfa05df989b03",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSerifKannada-Regular.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSerifKannada.ttf": {
+  "bytes": 415248,
+  "sha256": "273438fe72d8a966cb367fc6fca6975104df05fc71483bd7c49144bbb8ea8a11",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSerifKannada.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/NotoSerifTamil.ttf": {
+  "bytes": 281796,
+  "sha256": "3f09afad2196c81253b26a395c8b69d24914f437a9341b947723481a9b9d481e",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/NotoSerifTamil.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/OFL.txt": {
+  "bytes": 4393,
+  "sha256": "7f18ec1ebb6b50e3ed0f74b2c61f25b8d7cd69e43f4de66e991bcfd3c419a8bb",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/OFL.txt"
+   ],
+   [
+    "factory",
+    "usr/lib/fonts/OFL.txt"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/STXihei_CP.ttf": {
+  "bytes": 13887204,
+  "sha256": "1b71afb1ade0d7716d36021aa3ea70fe3e08430222c2f97d8ea295fc38fcb313",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/STXihei_CP.ttf"
+   ],
+   [
+    "factory",
+    "usr/lib/fonts/STXihei_CP.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/falcon-icons.ttf": {
+  "bytes": 55956,
+  "sha256": "a30f5b3ba6a48822eae041e0ca5412a289125e4ba661d047dae565ac43b4a6b2",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/falcon-icons.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/fonts.xml": {
+  "bytes": 6459,
+  "sha256": "ee4d51e54f1153b993e9cd4c7188be96ee73e856061bfac82ff4583ec7ae9f7b",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/fonts.xml"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/fonts/gkai00mp.ttf": {
+  "bytes": 4633128,
+  "sha256": "61519fb9bdda4a1a3aa02a12cbb76c2ef897ce879775d7ea2265d0a65fe54d16",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/fonts/gkai00mp.ttf"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/framework/js-framework.min.bin": {
+  "bytes": 110905,
+  "sha256": "49accd22a398aed0ff41b2e04bcb785c40b17f8a2541d447d87823ce68d6c9c0",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/framework/js-framework.min.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/framework/js_modules/events.js.bin": {
+  "bytes": 6230,
+  "sha256": "ccacc2806cba9e8f1014f9141266ac2c09d5d27b6d321143f6366f245ff47eb1",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/framework/js_modules/events.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/framework/js_modules/qjs-dbus.js.bin": {
+  "bytes": 14452,
+  "sha256": "44c6e17ffac3e77ecbfb786d55f3541df09ff49d4ec7c48d598d10066d3260ab",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/framework/js_modules/qjs-dbus.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/framework/js_modules/util.js.bin": {
+  "bytes": 219,
+  "sha256": "0424f2f849787c0c44ca2a48bd0965947c270d437e9a2c4103852e8197a8b479",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/framework/js_modules/util.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/framework/jsfm-nvue.js.bin": {
+  "bytes": 66315,
+  "sha256": "7286a6449fe441e5796e2a2eaf45bb4a68b9d896ae5549df307062ee0a2b1e56",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/framework/jsfm-nvue.js.bin"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/icu/icudt56l.dat": {
+  "bytes": 22197648,
+  "sha256": "ff75ea17e9853abf1877eb1c2ac657a371cff3b222e7bc402cc6202e2e1974e4",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/icu/icudt56l.dat"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/ime_res/lib/dict_pinyin.dat": {
+  "bytes": 180914,
+  "sha256": "714da7c7baab90ae54c244aee794f11b3e063222865eae6a809081b7266bc96f",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/ime_res/lib/dict_pinyin.dat"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/ime_res/lib64/dict_pinyin.dat": {
+  "bytes": 1071858,
+  "sha256": "dc1663160a5312c49300a8149d71e44a305c97a86383eb124e8b2faea4606c90",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/ime_res/lib64/dict_pinyin.dat"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/local_deviceinfo.json": {
+  "bytes": 92,
+  "sha256": "fc8dafb84305b178862d2998168a0d344b7dbf756973809d6465a76786cdb3ac",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/local_deviceinfo.json"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/local_packages.json": {
+  "bytes": 6261,
+  "sha256": "fb69194dda2ca3781e709da726e02df40345a3f548c62659b70db52411d82220",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/local_packages.json"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8001650599023931.amr": {
+  "bytes": 3472097,
+  "sha256": "9e892cfa7254d5e8a59ef78f6cb78590477bfa0eb997ee259b58f1e2a8661699",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8001650599023931.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8001654057944134.amr": {
+  "bytes": 2215200,
+  "sha256": "5467e97fc7b862d62229698f2091cea39bce898207740ce642d16d6007b91cfb",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8001654057944134.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8001657592345846.amr": {
+  "bytes": 767957,
+  "sha256": "e7b90c8a4e983cb4cda20406175c650ec9692f0d27d03b4328f4ff4ef0fe0f55",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8001657592345846.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8001661999525016.amr": {
+  "bytes": 224327,
+  "sha256": "ac23188df08155026a2e9d9873b327a989c7251e982d504277720fc7c4646e48",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8001661999525016.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8001666679481944.amr": {
+  "bytes": 329417,
+  "sha256": "e2326eeddcd276cbafd2f7c14418ea1cc9ffa3ce526d66d0d69dcff73f90d5e8",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8001666679481944.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8001667181267095.amr": {
+  "bytes": 173975,
+  "sha256": "91c28ab09ecfe4e41388324e0fa5f9db6d645b3015621ab314d695a29fa15324",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8001667181267095.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8001670668055425.amr": {
+  "bytes": 110303,
+  "sha256": "f963a93fa535e6455a6cce12b671ae098e0a6a6a40e96d9ec9f18c777284c2af",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8001670668055425.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8001671616562847.amr": {
+  "bytes": 147785,
+  "sha256": "ffa15c6b4e3d2d13e50a28eecd95d59b019d496c9b7e8e01dfc6e46b31099347",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8001671616562847.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8001678699362882.amr": {
+  "bytes": 1070832,
+  "sha256": "7d045ab73ac69e9874df8c135a5efc07d29b2a6031a3a59920db107f5159dd01",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8001678699362882.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8080212246010681.amr": {
+  "bytes": 681062,
+  "sha256": "01c77a5ac9158dc5bfb4ff8fd92104085b38650bbb179d0a0f69851fa626514f",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8080212246010681.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8080212335092787.amr": {
+  "bytes": 3592835,
+  "sha256": "ac052a8f0a3ee48e746d6fda477847eda9a54fd2fc46f2ae62de66aa41ce6e47",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8080212335092787.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8080212483527402.amr": {
+  "bytes": 1196931,
+  "sha256": "2efa210abc462594ad9a8b703b7924887340dd099e186a7077160fe463da29eb",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8080212483527402.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8080212680903142.amr": {
+  "bytes": 890562,
+  "sha256": "4247442f1acff484bb1bc4a867ae65318a64f37da714237ad841a5105d2a36f5",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8080212680903142.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8080212693101341.amr": {
+  "bytes": 3970054,
+  "sha256": "9207cda3deb36c19e4a498122092e4cfdadf29f8960fc747692f52f9ce06b7a6",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8080212693101341.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8080222437664451.amr": {
+  "bytes": 1668692,
+  "sha256": "c677889cde732a062f583fcc9bac90cb4fff2f55d172b4892082b5a6565f7026",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8080222437664451.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8080222501178405.amr": {
+  "bytes": 1031979,
+  "sha256": "2547fc75910ee125de401cf789b7238719d2d7f99a33048d5138d1125066a4f6",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8080222501178405.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8080232418330628.amr": {
+  "bytes": 2192542,
+  "sha256": "90945fc112c4036d57d49204e10b3bbe63fb8dc1d2170bb0064ee12973d154c4",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8080232418330628.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8080252464522508.amr": {
+  "bytes": 2490832,
+  "sha256": "4177232dcdbb595622c872aa3d71e9a381dce304cf8b995298495d87186bbeba",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8080252464522508.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8080262605498742.amr": {
+  "bytes": 488215,
+  "sha256": "8810cb7287f6c47770d7bf62fc3aa5bda94c55f5209483d66aec77780d969890",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8080262605498742.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8080272425914438.amr": {
+  "bytes": 1698420,
+  "sha256": "eb5f5b3872b9e119bb54ab35af0c6253102c2d01221bd68f68f0e0ccbb321c54",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8080272425914438.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8080272808953200.amr": {
+  "bytes": 1652408,
+  "sha256": "977f1c65dff4111853b84c5f3c34adfd946f9e0db83466b484fa3e540eee2470",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8080272808953200.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8080282263329158.amr": {
+  "bytes": 691826,
+  "sha256": "87bff11666587d7e24f1de147cde4f7bbac599169bc756a81ab3e0a4c97b7641",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8080282263329158.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8080282888534774.amr": {
+  "bytes": 1529425,
+  "sha256": "cc481b9371e8a05bcd5d0aa1566978306ca93dda8fd710497569ead84f95de5e",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8080282888534774.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/resources/presetpkgs/8080292157485624.amr": {
+  "bytes": 588462,
+  "sha256": "ba6b982b153517e1742061cca9e56b22ffb44cad5eab2b01b55db6d777056913",
+  "sources": [
+   [
+    "factory",
+    "etc/miniapp/resources/presetpkgs/8080292157485624.amr"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/ld-linux-aarch64.so.1": {
+  "bytes": 146544,
+  "sha256": "120db0c4029c75663d93b8fe8a0d82423d7b70a8a16e2e8dfe155d4655d31793",
+  "sources": [
+   [
+    "factory",
+    "lib/ld-2.27.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libFLAC.so.8": {
+  "bytes": 154440,
+  "sha256": "d76fe3218b49322612ac14b60407ae5a06678bd3308d3d3f2e70547f8939d839",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libFLAC.so.8.3.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libJQuickBase.so": {
+  "bytes": 68584,
+  "sha256": "e33453c5666772eb824e42803206f79d20b3bbee8ceaff321a6f2f3ca2fa4bdb",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libJQuickBase.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libYoudaoStitch.so": {
+  "bytes": 8365448,
+  "sha256": "98d38382780e6d017a1ba8f00fc4d825d1613e07b31d0a48f275d62edb72dd65",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libYoudaoStitch.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libasound.so.2": {
+  "bytes": 820368,
+  "sha256": "d3842859b390e7ce87f54644a4d50dd1a9bafedd2725ceac866957fe4147be28",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libasound.so.2.0.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libatomic.so.1": {
+  "bytes": 18176,
+  "sha256": "8c3500607970dc7e6ced2f32a34a316e673f1f1b32d8f2af5320f0646420f8fa",
+  "sources": [
+   [
+    "factory",
+    "lib/libatomic.so.1.2.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libavcodec.so.57": {
+  "bytes": 9983552,
+  "sha256": "698829ec92dccc9956d114a029a35adc3903b342bf7aca2d4309e7b892fecd08",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libavcodec.so.57.107.100"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libavdevice.so.57": {
+  "bytes": 74536,
+  "sha256": "f97dd77cbb03a5fdf2ecae8280ccfc06e6e3a2e3b4d00b19d99267c1e553403e",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libavdevice.so.57.10.100"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libavfilter.so.6": {
+  "bytes": 1905608,
+  "sha256": "bdea83070374cc1b178a06b2ad41ad71974cbd3561eb584080e0d0140d46ffa6",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libavfilter.so.6.107.100"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libavformat.so.57": {
+  "bytes": 2049088,
+  "sha256": "39c891e1eff3c670d5bee5f34f98623d02f83a44d1fce22b720cf28c30f49316",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libavformat.so.57.83.100"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libavresample.so.3": {
+  "bytes": 67672,
+  "sha256": "026d6c63eab24741562f8fcbf73e43bd67157ed1a16af18ac9cffcd0fa2659c3",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libavresample.so.3.7.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libavutil.so.55": {
+  "bytes": 375176,
+  "sha256": "359b7b56f770ec7d2794119822d5965fec9b10f26d5e644ed45c48b4c61fb338",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libavutil.so.55.78.100"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libbf.so": {
+  "bytes": 113624,
+  "sha256": "1d9ddb7d749e1ca0b9ce6cd85995a1b882b3fb2fcbbca03fd4c73182159b2a2c",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libbf.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libblkid.so.1": {
+  "bytes": 238072,
+  "sha256": "8dcc4cafafcc523cd1f4224ea548d15bff131a9e7f1fb2f990c3a199a8d98ed1",
+  "sources": [
+   [
+    "factory",
+    "lib/libblkid.so.1.1.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libblobmsg_json.so": {
+  "bytes": 10072,
+  "sha256": "0eac02390afe4eacf6ef20549ba7f9daee5f2921c65d8c418a56817487cceae1",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libblobmsg_json.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libc.so.6": {
+  "bytes": 1288368,
+  "sha256": "5b4d02dfb636eddb65717f9f157046350396e2fa15c66eed7dfc6159f9fd2bc5",
+  "sources": [
+   [
+    "factory",
+    "lib/libc-2.27.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libcares.so.2": {
+  "bytes": 55704,
+  "sha256": "4019d58768cad1646ed30f0cd468cc2ebe95660a78fef00e3ea30802d76dd99b",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libcares.so.2.2.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libcjson.so.1": {
+  "bytes": 22472,
+  "sha256": "02e618900b8ebc149ccb343e5c6594c402fecffca7b2af1d3e342653077c9627",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libcjson.so.1.7.1"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libcpr.so": {
+  "bytes": 93680,
+  "sha256": "26d1ad9c30a2bbdff0b7f2f2b2fa9cdc56ce6e8fc4b9e2e2ef48c61c7416113d",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libcpr.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libcrypto.so.1.1": {
+  "bytes": 2110104,
+  "sha256": "53b4ea2acffa29499c241577cda9da36208a6648933efd387d88e6a46fa67461",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libcrypto.so.1.1"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libcurl.so.4": {
+  "bytes": 315824,
+  "sha256": "641d9c2b540d5632e225d07de08cd381d0c6e9932ce5ad6d6f7b2047d72eca85",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libcurl.so.4.5.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libdbus-1.so.3": {
+  "bytes": 247328,
+  "sha256": "a19050827ba2e90a8d3e01be6e38b6322865657f661703c9c2ad4468a215d9a8",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libdbus-1.so.3.19.4"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libdl.so.2": {
+  "bytes": 14328,
+  "sha256": "1262a7748470fd2ae0ec73655ac1861215b3dfaa27cce9cd2d236c51415dc2ee",
+  "sources": [
+   [
+    "factory",
+    "lib/libdl-2.27.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libdrm.so.2": {
+  "bytes": 55712,
+  "sha256": "28d274b40b7394c7b60b6b66865fb75da5bc8393d7f08b1d31c063d417a2f75a",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libdrm.so.2.4.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libev.so.4": {
+  "bytes": 39312,
+  "sha256": "d40a0c4eb66f82b3b795349d29e294fd093c86fdb240b70eb9cf26b1b60d3541",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libev.so.4.0.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libexpat.so.1": {
+  "bytes": 129040,
+  "sha256": "2586f8320b0ea555be6e181253a3a08fd07f041d225d3729f14f47f7a5badfa8",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libexpat.so.1.6.7"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libfalcon.so": {
+  "bytes": 4229744,
+  "sha256": "b7df8622f90fd37387cb0686b8c3b229bee9bab23f581d331757aa0cf95e4cb8",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libfalcon.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libffi.so.6": {
+  "bytes": 30840,
+  "sha256": "81545a9810502491de6b7940d764835cfa9a83724c1fd2e3266587ce9872f452",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libffi.so.6.0.4"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libfontconfig.so.1": {
+  "bytes": 224264,
+  "sha256": "f744226f31369f26a59fb5995971779c4833f611d68b753921881d7832688970",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libfontconfig.so.1.9.4"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libfreetype.so.6": {
+  "bytes": 506752,
+  "sha256": "47f76491313e008e5f8d760561970a6332400d338a130c05ac1024beabaaf565",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libfreetype.so.6.15.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libfuzzy_search.so": {
+  "bytes": 129912,
+  "sha256": "dcfdef81d04c7fe3b8eef51d428da19d05435c80936016f3ac911b032967dff3",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libfuzzy_search.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libgcc_s.so.1": {
+  "bytes": 63656,
+  "sha256": "5406103fe17e1ded85d4814d6e0753bcca4857fbb00e5f007b5f4da1ced3d4ed",
+  "sources": [
+   [
+    "factory",
+    "lib/libgcc_s.so.1"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libgetdevicename.so": {
+  "bytes": 18496,
+  "sha256": "5165a7320484658af70622486b30ef031a9e3b67a60b6a0635f25fbcf1fac44f",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libgetdevicename.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libgio-2.0.so.0": {
+  "bytes": 1693968,
+  "sha256": "4f7f6f3e0dede6b5cfb11ebb1e6749b39724e586b5105daa4d7e0d6d889d5849",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libgio-2.0.so.0.6400.4"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libglib-2.0.so.0": {
+  "bytes": 1184736,
+  "sha256": "125955b351a0918ea4ebf675a1d5de0484ae570caf940cbac82ba1ac75699c05",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libglib-2.0.so.0.6400.4"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libgmodule-2.0.so.0": {
+  "bytes": 14288,
+  "sha256": "b61f09c8a8d40b0eda3f48654edd792c679c74b14d7f44c0dea0d9a42d3cf67c",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libgmodule-2.0.so.0.6400.4"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libgmp.so.10": {
+  "bytes": 360880,
+  "sha256": "21c6aaa9ab2eccb064ff37654a215de8fa03d47dfd4e003b5578ec4ad246ba96",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libgmp.so.10.3.2"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libgnutls.so.30": {
+  "bytes": 1082928,
+  "sha256": "303ab3815f17832040f8654a139d79590a4059981eac2268a963fd33671f6025",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libgnutls.so.30.14.9"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libgobject-2.0.so.0": {
+  "bytes": 360776,
+  "sha256": "bf020678a2b9e1a9a8e0a7da0016182c032729b5deea8a3ec8198321966deac8",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libgobject-2.0.so.0.6400.4"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libgomp.so.1": {
+  "bytes": 117512,
+  "sha256": "5e2c4d6f01a930b6df0104371de3c3e55c3b3ce509c37e83d7100453c92db917",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libgomp.so.1.0.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libgstapp-1.0.so.0": {
+  "bytes": 52016,
+  "sha256": "da251527e005176f0e9981eb4a729093a4259458c8d4a57d40df28f6312f1d38",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libgstapp-1.0.so.0.1404.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libgstbase-1.0.so.0": {
+  "bytes": 369360,
+  "sha256": "d5c2b0919e2b8ee2adc5ced021341f72d1d9ee219b5a63a4eb712dfea4b04c91",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libgstbase-1.0.so.0.1404.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libgstreamer-1.0.so.0": {
+  "bytes": 1022072,
+  "sha256": "35c5225b807882d21c9a101ca4b04e924075eaba1229c83b5caff45fa2bef522",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libgstreamer-1.0.so.0.1404.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libgstrtp-1.0.so.0": {
+  "bytes": 109616,
+  "sha256": "aaaa28589796ce7219a62c548c6a4c4e8818a19e00bced20f4580579ab1d1002",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libgstrtp-1.0.so.0.1404.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libgstsdp-1.0.so.0": {
+  "bytes": 72008,
+  "sha256": "c60f6bf2ff09ee15668d0c572a8e5b52cdcd6615ca8993a69fb7c2c0094508ac",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libgstsdp-1.0.so.0.1404.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libgstvideo-1.0.so.0": {
+  "bytes": 430952,
+  "sha256": "ec1ed54ed0a6430d00b366103538b377ff10c7bb988a10047590c73bb30be164",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libgstvideo-1.0.so.0.1404.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libgstwayland-1.0.so.0": {
+  "bytes": 10000,
+  "sha256": "7e99209e670534ef136f4ff02fb6c6b41f35fc25ef3038f220796af521213fed",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libgstwayland-1.0.so.0.1404.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libhogweed.so.4": {
+  "bytes": 195992,
+  "sha256": "deeb4f6eb99f5a9b447ba76884ea2ef78fabc11de1992dd9a355d6d283ba3671",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libhogweed.so.4.4"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libiconv.so.2": {
+  "bytes": 911240,
+  "sha256": "a515aefe8a12599d0d8f4da37769d7dd80e3df5d8a97b749f05ebb0ab7c2ec55",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libiconv.so.2.6.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libjpeg.so.8": {
+  "bytes": 215528,
+  "sha256": "3fa6a73726d3bc43f36f5ee45072a76f31231ead2b0665d344631f2c513ef5e9",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libjpeg.so.8.1.2"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libjsapi_proxy.so": {
+  "bytes": 164072,
+  "sha256": "efee134a11866092c7e380a2be81de6daf22abcc8e2b4d2e4b35148a855daba4",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libjsapi_proxy.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libjson-c.so.3": {
+  "bytes": 47432,
+  "sha256": "6f808102947ab9648383adeebb74de5d292a252b5bcac967bd79b6a575c763b1",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libjson-c.so.3.0.1"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libm.so.6": {
+  "bytes": 681920,
+  "sha256": "ff164be69f66790b491668286de66fb0ba5b2c45e52d820d5ea3ecfce998cbf1",
+  "sources": [
+   [
+    "factory",
+    "lib/libm-2.27.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libmagic.so.1": {
+  "bytes": 105200,
+  "sha256": "39667b36a8f2f3e02fd75bbae87b552089c81dbe12f4be02d67e88ac015a5770",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libmagic.so.1.0.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libmini-nmt.so": {
+  "bytes": 2992472,
+  "sha256": "450ff1b47aef0a8179024cd61a54a5f6462da3b53bb96673139fce13043e653a",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libmini-nmt.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libmount.so.1": {
+  "bytes": 263616,
+  "sha256": "c01cb1afef34b492f6e853d98bbe18bef7b208509e0b79d37ba5b7502aba37a5",
+  "sources": [
+   [
+    "factory",
+    "lib/libmount.so.1.1.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libmp3lame.so.0": {
+  "bytes": 223736,
+  "sha256": "8bec3555c7d3c149a3ab517012a5596da4b613b97bba9f8710fef07e6c781b57",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libmp3lame.so.0.0.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libnettle.so.6": {
+  "bytes": 195504,
+  "sha256": "98b92e8f74a0034082152fe33920613f166108accb11693b0427207bb26eac53",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libnettle.so.6.4"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libogg.so.0": {
+  "bytes": 22440,
+  "sha256": "5d7fef8f1718058f400b4085872f23facb028f6afb28a4d3f832ca20223577cf",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libogg.so.0.8.3"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libopencc.so": {
+  "bytes": 209504,
+  "sha256": "82ee0dde8be4807d4cee10c3898563ff9e00811c1fb711c152bd77f822cfccc6",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libopencc.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libopencv_core.so.3.4": {
+  "bytes": 3224400,
+  "sha256": "c6052533403d5c259665d73089bd219070c5b1612aa49381e29bcdb39fdb3daa",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libopencv_core.so.3.4.3"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libopencv_imgcodecs.so.3.4": {
+  "bytes": 2754832,
+  "sha256": "8e3446005893d2f1c902c9cda3edcb2498a5fbaae811b0199bc385ff1678d4b6",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libopencv_imgcodecs.so.3.4.3"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libopencv_imgproc.so.3.4": {
+  "bytes": 3340040,
+  "sha256": "8695d9949293a05d2b2a83f2b47f84d7385cd51521ad20193c007cee8d209b62",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libopencv_imgproc.so.3.4.3"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libopencv_objdetect.so.3.4": {
+  "bytes": 370600,
+  "sha256": "29f7c8286a53ab796ed83be0ed70518e0ccfc216b763b137068fd3c06773597e",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libopencv_objdetect.so.3.4.3"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libopus.so.0": {
+  "bytes": 227344,
+  "sha256": "c06ca2f97a876e784de65fa29963e8ffcebba619b6a731806f9f276fc9d4cab1",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libopus.so.0.6.1"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libpcre.so.1": {
+  "bytes": 219032,
+  "sha256": "191eb73a19459f9f15ddff285ffc995aed05d548e6a807d8a9bd7cbbd50f8f4a",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libpcre.so.1.2.9"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libpng16.so.16": {
+  "bytes": 154440,
+  "sha256": "f7796262deb50cf7205e03679b94edf1be485370474d6974b096c86323a98adf",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libpng16.so.16.34.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libpthread.so.0": {
+  "bytes": 139384,
+  "sha256": "e640c4a0a39f58c6fb37ccbad533767bb5bc04f8f95653c00506c830c116cbf8",
+  "sources": [
+   [
+    "factory",
+    "lib/libpthread-2.27.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libqrencode.so.3": {
+  "bytes": 39184,
+  "sha256": "6121fc967b1257da98b74ef10e88d04ec512363bd9ef38e1014db8ad74d4067a",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libqrencode.so.3.4.2"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libquickjs.so": {
+  "bytes": 614752,
+  "sha256": "bc52d3a451e3a66d412eb856a47da819b152f7b8da60a0ef8d99ec2e81460f8c",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libquickjs.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libresolv.so.2": {
+  "bytes": 72192,
+  "sha256": "0216b034ee4adb8127df49147ad5e109a2f84feb2e2465c68e3fb52d4b149944",
+  "sources": [
+   [
+    "factory",
+    "lib/libresolv-2.27.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/librga.so": {
+  "bytes": 31024,
+  "sha256": "8c69ff4fc280083210a0a4e133e0976a7a88331891e21b6144b77d7ad88e5e25",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/librga.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/librockchip_mpp.so.1": {
+  "bytes": 815512,
+  "sha256": "78344ec96920a52a7accd86ab2cdaafdf7e48653c0ae5a5176509e9bb965b473",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/librockchip_mpp.so.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/librt.so.1": {
+  "bytes": 27328,
+  "sha256": "020c18521b48ec9a192ea17b96fd93ed41aa92f1e4091db31785ee2c371577a7",
+  "sources": [
+   [
+    "factory",
+    "lib/librt-2.27.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libspeex.so.1": {
+  "bytes": 79800,
+  "sha256": "f20c2eda9cf9108ff6ba6e100338e12cf670f2f1cf4bb35785f0a12d8c77598b",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libspeex.so.1.5.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libssl.so.1.1": {
+  "bytes": 453656,
+  "sha256": "6a279206d1efa5fdaa8a4638302ac72c8476becffb1f4e7fc1587778caa5398e",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libssl.so.1.1"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libstdc++.so.6": {
+  "bytes": 1313312,
+  "sha256": "6c91455c29740ad340528a103d665467906a355269a4343ad151d3fcb64734d1",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libstdc++.so.6.0.22"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libswresample.so.2": {
+  "bytes": 79904,
+  "sha256": "598bbc311ae873f7d27a727edc04fa4025de686d8135411aed9a147c119a87b2",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libswresample.so.2.9.100"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libswscale.so.4": {
+  "bytes": 346096,
+  "sha256": "1cc0c8128d187f29c150ca203e0e5a6061264d8ef5ae23c9045ac53dc313f395",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libswscale.so.4.8.100"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libtasn1.so.6": {
+  "bytes": 59544,
+  "sha256": "759eb4b3c14d582c5bf82d793707c248fe0a082257920c0f52a812b62c40c800",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libtasn1.so.6.5.5"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libtheoradec.so.1": {
+  "bytes": 43032,
+  "sha256": "530ec8ccde5607062378e55e63ea1ab1453c84e4587eee0a8b4fda53c927c6a2",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libtheoradec.so.1.1.4"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libtheoraenc.so.1": {
+  "bytes": 133144,
+  "sha256": "b9b8a94e840e7e293b64f807102b02bffb6bc20ba298ff7c9ff2ca9024445ca2",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libtheoraenc.so.1.1.2"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libubox.so": {
+  "bytes": 43648,
+  "sha256": "662e24922efa3f19b868c2f4ecd0bb65e18f61101bd5155d76ece9e0007ea541",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libubox.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libubus.so": {
+  "bytes": 22832,
+  "sha256": "f19a3295e8b10253fda0267004f336756502608dea146801b5d406505a4550b3",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libubus.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libunistring.so.2": {
+  "bytes": 1421056,
+  "sha256": "4d430e547bad71985625b5e0f8febd253ce814e3eaed5cac96d613ef88ff8fd4",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libunistring.so.2.0.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libuuid.so.1": {
+  "bytes": 22752,
+  "sha256": "a1e24228f98b9bcd094ffd80d6d80bbf17f28113bb0ebdf77987d54264758692",
+  "sources": [
+   [
+    "factory",
+    "lib/libuuid.so.1.3.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libvorbis.so.0": {
+  "bytes": 145880,
+  "sha256": "0c72d9921b807302a2b714708c2dfd8c8335b4376ccdba68dd831a10e27eca6b",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libvorbis.so.0.4.8"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libvorbisenc.so.2": {
+  "bytes": 649048,
+  "sha256": "347613e1a051a4c3cf25e11aa636b8bd725c3241292c94397b1ea49b023733b8",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libvorbisenc.so.2.0.11"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libwayland-client.so.0": {
+  "bytes": 60392,
+  "sha256": "1e89b1606ce4a40707999d63d542d3dda686c5a7eddfb11476e9ca41f1f7aff3",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libwayland-client.so.0.3.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libwayland-server.so.0": {
+  "bytes": 77064,
+  "sha256": "cd6e7c3679197268e4b5a33c1d6fc8e1200dd1fb8b4eaec669462fc2813c4956",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libwayland-server.so.0.1.0"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libwpa_client.so": {
+  "bytes": 31048,
+  "sha256": "6718ff6eef48f2bc6ad1ba7d264b79f5a66b97eeab8cf2294fc325f521652eec",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libwpa_client.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libyddal_adapter.so": {
+  "bytes": 561344,
+  "sha256": "d8b40214a4b9e1998926fca6394c1ab86eb40cb79b934fc773ef6864822ccf40",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libyddal_adapter.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libyddal_base.so": {
+  "bytes": 1721840,
+  "sha256": "60ea8f9dd33acb122d3e0c6f519a8dfcb3d7903e5861c9759858f6e15bc913d6",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libyddal_base.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libyddal_base_controls.so": {
+  "bytes": 14128,
+  "sha256": "8f38b068cdf5ee5fea67e76ae515a921d42214954391ebd986fd715f75f6eaea",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libyddal_base_controls.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libyddal_base_dict.so": {
+  "bytes": 93416,
+  "sha256": "5b9105dc38252185f16c54cb62e59073bf72806c9e2899470121bd3cc9933f60",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libyddal_base_dict.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libyddal_base_ipc.so": {
+  "bytes": 407440,
+  "sha256": "93f982759ada01860eac3707934acb160cb977399690b23e4456217d234080f0",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libyddal_base_ipc.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libyddal_base_log.so": {
+  "bytes": 14432,
+  "sha256": "cdbda02479a6c9ac0db2c6e0cefd4924689de0b6cc2e3f6c42e0548727addc54",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libyddal_base_log.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libyddal_base_nmt.so": {
+  "bytes": 85088,
+  "sha256": "2217160dda6705be9e54f43294d9d986ef0749e58f267e4fec82cd3b2328855e",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libyddal_base_nmt.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libyddal_business.so": {
+  "bytes": 1903376,
+  "sha256": "646d5ea1732d02ede39a96ebbeef17573d950c20c9ce65a197ed1127b8c7c53e",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libyddal_business.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libyddal_common_resourcemanager.so": {
+  "bytes": 134408,
+  "sha256": "45b545a13b52085670cc35ceca1544b60ec45c21b470f55e021e205d371b5106",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libyddal_common_resourcemanager.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libyddal_common_soundplayer.so": {
+  "bytes": 84832,
+  "sha256": "cba13c2e66970a24cbad56939aff80fd4c4af6e691e2fb3eb55507959f2720b1",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libyddal_common_soundplayer.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libyddal_common_soundrecord.so": {
+  "bytes": 93216,
+  "sha256": "57e3b47c653fb4143470d92daab9ee617c2f4d0471c2f68a39e3de2327f32c24",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libyddal_common_soundrecord.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libyddal_common_videoplayer.so": {
+  "bytes": 22640,
+  "sha256": "1ad1c5688cb8b88afce4e0a7421bd3b024ca422eef91850e703f38ed6f9c8e2e",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libyddal_common_videoplayer.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libyddal_db.so": {
+  "bytes": 739312,
+  "sha256": "a73498d7b0f7ca30ec758ae661187126f92ad5fcf363b331b3ddae0eefc15d40",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libyddal_db.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libydhal_base.so": {
+  "bytes": 28224,
+  "sha256": "180e00624c11399b5a3255fd8c1b394570843e3a679c53ab04a6179abd918c67",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libydhal_base.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libydhal_comm.so": {
+  "bytes": 14224,
+  "sha256": "5f6d12378d636f73f6d63e18c6110893a186f6daede75c8eeb2d6759378d7663",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libydhal_comm.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libydhal_devices.so": {
+  "bytes": 184992,
+  "sha256": "08fcaaf6263744925ad16fa874305c63b84df25148fa890a24fbad641b3d2021",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libydhal_devices.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libydhal_logging.so": {
+  "bytes": 5832,
+  "sha256": "6f1a593099042dd7d5a7b963f92e926e15f89eb5671429833ffcafab9afc27d1",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libydhal_logging.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libydhal_ota.so": {
+  "bytes": 14280,
+  "sha256": "cf6c034dee445eccec6ce52a0f93c14876232a911f6d1b42a784634bc8b9f587",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libydhal_ota.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libydubus_center.so": {
+  "bytes": 10224,
+  "sha256": "b8f37444b452f1a7611761d47c63b3a848e0c785e86bf7226b753f634ea52205",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libydubus_center.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libydubus_sender.so": {
+  "bytes": 14448,
+  "sha256": "a4776a698cc9e34c18fb9202e9e1ec04293ce9df67914dd689b6741530f12e98",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libydubus_sender.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libyocr.so": {
+  "bytes": 11751656,
+  "sha256": "76b0dc35cd36fae545872c14a6107b60e32e9a716567f9f3c6cd46a87841ae55",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libyocr.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libyoudao_afe_lim.so": {
+  "bytes": 18408,
+  "sha256": "66ad270570f3ed4adf31e6828bb6848cc0ea8d92ba48ac9a77dd173b74f6c602",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libyoudao_afe_lim.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libyoudao_player_lim.so": {
+  "bytes": 18408,
+  "sha256": "91076e9810a7a72343693919791918ffccb1aeb082dc44e74e2e3a1bedb289cc",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libyoudao_player_lim.so"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libz.so.1": {
+  "bytes": 71808,
+  "sha256": "62c9441dbeb3b92f9f3128175f83fd3c40dbb72ddb2b12e58dfb83ac9a542788",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libz.so.1.2.11"
+   ]
+  ]
+ },
+ "board/original-ui/base/runtime/libzlog.so.1.2": {
+  "bytes": 84848,
+  "sha256": "c77a3bc3d32a93cfe4d1e23efcf508f31a0c67be2020a0ebd8840ea9d31eaf20",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libzlog.so.1.2"
+   ]
+  ]
+ },
+ "board/original-ui/runtime/libffi.so.6": {
+  "bytes": 30840,
+  "sha256": "81545a9810502491de6b7940d764835cfa9a83724c1fd2e3266587ce9872f452",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libffi.so.6.0.4"
+   ]
+  ]
+ },
+ "board/original-ui/runtime/libwayland-server.so.0": {
+  "bytes": 77064,
+  "sha256": "cd6e7c3679197268e4b5a33c1d6fc8e1200dd1fb8b4eaec669462fc2813c4956",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libwayland-server.so.0.1.0"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/0913_nounderline_14_nozip-sim-opt-int8.bin": {
+  "bytes": 3380448,
+  "sha256": "4047d0aaba505a665ce240be75a91f5b6e149150537d2afba1a3642dd5b64612",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/0913_nounderline_14_nozip-sim-opt-int8.bin"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/0913_nounderline_14_nozip-sim-opt-int8.param": {
+  "bytes": 8418,
+  "sha256": "dcb573a62c2f24c28a3f7c73f18cd0c5b5d70e4352aac7f7b01313e1789898a8",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/0913_nounderline_14_nozip-sim-opt-int8.param"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/TG_c.fst": {
+  "bytes": 156749049,
+  "sha256": "6aa8aed2be9616a84ad759abc04f5ca187b19e46d4866bb39d28ff7db7f41a58",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/TG_c.fst"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/cascade_0507.xml": {
+  "bytes": 50012,
+  "sha256": "605346cab1f26d71071aef15ab6f215fe15254f6323e42d3342fabe11c789796",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/cascade_0507.xml"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/conver.list": {
+  "bytes": 2370,
+  "sha256": "897ff72a04812ca568beeaeac4af970fc00dbcbae2952cf8cdf5a241002a4bba",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/conver.list"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/crnn_dictpen_es_v2.2.bin": {
+  "bytes": 2001660,
+  "sha256": "4acbbb76d7f894ab4a45d171e1f546a0e75d577ce7a3a072e02326b5c60a7049",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/crnn_dictpen_es_v2.2.bin"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/crnn_dictpen_es_v2.2.param": {
+  "bytes": 1706,
+  "sha256": "8c2c7fb73cb0aee09bd700eb822fe48090cf2ee3fdb9a51f72cef395326f0b22",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/crnn_dictpen_es_v2.2.param"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/crnn_dictpen_handwritten_v0.1.param"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/crnn_dictpen_pro_v2.4.param"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/crnn_dictpen_std_v2.6.param"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/crnn_dictpen_handwritten_v0.1.bin": {
+  "bytes": 2001660,
+  "sha256": "efd3531bed791c41e79384d1c0cd1a01854bef514d562f73e80a62246c01f947",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/crnn_dictpen_handwritten_v0.1.bin"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/crnn_dictpen_handwritten_v0.1.param": {
+  "bytes": 1706,
+  "sha256": "8c2c7fb73cb0aee09bd700eb822fe48090cf2ee3fdb9a51f72cef395326f0b22",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/crnn_dictpen_es_v2.2.param"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/crnn_dictpen_handwritten_v0.1.param"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/crnn_dictpen_pro_v2.4.param"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/crnn_dictpen_std_v2.6.param"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/crnn_dictpen_pro_v2.4.bin": {
+  "bytes": 2001660,
+  "sha256": "65c4dab716dee7e8fbe7c65d9040880447206f5ae2419afbee1e27f6d73c82c0",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/crnn_dictpen_pro_v2.4.bin"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/crnn_dictpen_pro_v2.4.param": {
+  "bytes": 1706,
+  "sha256": "8c2c7fb73cb0aee09bd700eb822fe48090cf2ee3fdb9a51f72cef395326f0b22",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/crnn_dictpen_es_v2.2.param"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/crnn_dictpen_handwritten_v0.1.param"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/crnn_dictpen_pro_v2.4.param"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/crnn_dictpen_std_v2.6.param"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/crnn_dictpen_std_v2.6.bin": {
+  "bytes": 2001660,
+  "sha256": "bf4608b8fca2b07e9de137cb42685acb34ccc29abaa9ba5fab3046aeda6c9ca2",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/crnn_dictpen_std_v2.6.bin"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/crnn_dictpen_std_v2.6.param": {
+  "bytes": 1706,
+  "sha256": "8c2c7fb73cb0aee09bd700eb822fe48090cf2ee3fdb9a51f72cef395326f0b22",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/crnn_dictpen_es_v2.2.param"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/crnn_dictpen_handwritten_v0.1.param"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/crnn_dictpen_pro_v2.4.param"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/crnn_dictpen_std_v2.6.param"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/formula_cnn_v1.1.4.bin": {
+  "bytes": 1633020,
+  "sha256": "cce760236eaa79141b055c0d4a1290a32cdd00ab5b0f23e6be4d177203829a9e",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/formula_cnn_v1.1.4.bin"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/formula_cnn_v1.1.4.param": {
+  "bytes": 1974,
+  "sha256": "c838090f41bd74db8e1e30121f602d20fd9887c3d6c22dd957af4eb802b04821",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/formula_cnn_v1.1.4.param"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/formula_decode_table_v1.1.4.txt": {
+  "bytes": 74516,
+  "sha256": "8e76e93c96d9fcf7fefb57df67b68a35708dcdf6d1d5b0a6e3fec57f1c689ab5",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/formula_decode_table_v1.1.4.txt"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/formula_v1.1.4.npz": {
+  "bytes": 19431894,
+  "sha256": "389fa999b4250c551173277540a43180a1dd972e141f3e42f679df27cc999cfd",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/formula_v1.1.4.npz"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/label.17625_with_index": {
+  "bytes": 165005,
+  "sha256": "78291f7a5b2b102c27d2ba2ddea6b8b49e057bf8b23343367f8b341a6b61b5ad",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/label.17625_with_index"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/label.23500_with_index": {
+  "bytes": 221230,
+  "sha256": "e61571eff3fd5892fc8c2a4a06f30116a9dab87f71b73e415b5a65d7400566bf",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/label.23500_with_index"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/ocr_model_es": {
+  "bytes": 16631732,
+  "sha256": "4eec2233a6283621632611fc07c2430d4b98cebf182fb78e5988ac0847f68712",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/ocr_model_es"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/ocr_model_es_v2.2_0129"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/ocr_model_es_v2.2_0129": {
+  "bytes": 16631732,
+  "sha256": "4eec2233a6283621632611fc07c2430d4b98cebf182fb78e5988ac0847f68712",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/ocr_model_es"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/ocr_model_es_v2.2_0129"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/ocr_model_handwritten": {
+  "bytes": 13599716,
+  "sha256": "c83574ad03d8f6d93f054fa0e9f37a03c8e39dfe92a89d6d5ed83e404ad72a6e",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/ocr_model_handwritten"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/ocr_model_handwritten_v0.1_1018"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/ocr_model_handwritten_v0.1_1018": {
+  "bytes": 13599716,
+  "sha256": "c83574ad03d8f6d93f054fa0e9f37a03c8e39dfe92a89d6d5ed83e404ad72a6e",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/ocr_model_handwritten"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/ocr_model_handwritten_v0.1_1018"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/ocr_model_pro": {
+  "bytes": 16631732,
+  "sha256": "d5b948a3585c408f804ba24a13857ec08f2ecd27cbab35e84a7f441435fb6d58",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/ocr_model_pro"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/ocr_model_pro_v2.4_0903"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/ocr_model_pro_v2.4_0903": {
+  "bytes": 16631732,
+  "sha256": "d5b948a3585c408f804ba24a13857ec08f2ecd27cbab35e84a7f441435fb6d58",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/ocr_model_pro"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/ocr_model_pro_v2.4_0903"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/ocr_model_standard": {
+  "bytes": 16631732,
+  "sha256": "fc7e4950487f967792fb8390b4bd15ea42c215f0ace7c6db4e5f436f472cd44a",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/ocr_model_standard"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/ocr_model_std_v2.6_1214"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/ocr_model_std_v2.6_1214": {
+  "bytes": 16631732,
+  "sha256": "fc7e4950487f967792fb8390b4bd15ea42c215f0ace7c6db4e5f436f472cd44a",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/ocr_model_standard"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/ocr_model_std_v2.6_1214"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/ocr_patch.bin": {
+  "bytes": 12269,
+  "sha256": "bc85ee280c8eff208c44a2adc46e8d7768fbaee783bf93c40f81b46ae280c44b",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/ocr_patch.bin"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/ocr_patch.bin.md5": {
+  "bytes": 99,
+  "sha256": "cb33beee2de1ca1d8488bbd3fb6aa395685eeb4fd665cac6fc7a9835fcb47fee",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/ocr_patch.bin.md5"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/version.info": {
+  "bytes": 4170,
+  "sha256": "51435f6b3d1e4a0c60e1126f40f3035d9fa00c80640787a24730a2bd027f7ca1",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/version.info"
+   ]
+  ]
+ },
+ "board/stock-engine/models/ocr/words.txt": {
+  "bytes": 218919,
+  "sha256": "906230752ac11a3d2918d26fbd57b68bd9f7b9b439e442cb4cfd4d15f1342706",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/ocr/words.txt"
+   ]
+  ]
+ },
+ "board/translation/models/patchV2.bin": {
+  "bytes": 2001653,
+  "sha256": "798c8012b098a804b620801f82b4abab9eee75764a56e48db518d7436747876c",
+  "sources": [
+   [
+    "user",
+    "resource/localdict/patchV2.bin"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_c2e/bpe_exclude.voc": {
+  "bytes": 114,
+  "sha256": "2a89871cc4cb60f0af1cf56e8ecacbcdb1c37a6319e733b59812e539541b6e53",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/bpe_exclude.voc"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_c2e/checklist": {
+  "bytes": 1307,
+  "sha256": "36ad937f276e8b878c7c4b349074e85e3f737789a6e1eaed839c985c2292f16a",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/checklist"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_c2e/cnen.codec.bin": {
+  "bytes": 1195957,
+  "sha256": "e340e583ea9aea0959eb056aaa4ad5ee4d4cd94a825c18367755b53904edccb8",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/cnen.codec.bin"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_c2e/en.vocab.bin": {
+  "bytes": 1859622,
+  "sha256": "e4dc58cd466e2fd1955e30274b4c92d5c4a506e0495deb69064e54104a325a6d",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/en.vocab.bin"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_c2e/lang_resource/Dic/jieba.dict.utf8.bin": {
+  "bytes": 1617607,
+  "sha256": "e0ce9d1ff3b3790f1044469465bc480923b5473561499ed3e7f2f7b4c7a0ff38",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/Dic/jieba.dict.utf8.bin"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_c2e/lang_resource/HONORIFICS": {
+  "bytes": 366,
+  "sha256": "b8d272faf1f807e881b6258ce3d6bee690b9cd42c0005c0dad727b099e3df787",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/HONORIFICS"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2j/lang_resource/HONORIFICS"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2k/lang_resource/HONORIFICS"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/HONORIFICS"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_j2c/lang_resource/HONORIFICS"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_k2c/lang_resource/HONORIFICS"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_c2e/lang_resource/chnWordSegVocab": {
+  "bytes": 1798807,
+  "sha256": "9904bd026067201b821de344ba1da385a1e93223daaf2bce721ab3f267d9e04f",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/chnWordSegVocab"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_c2e/lang_resource/default_emoji": {
+  "bytes": 181974,
+  "sha256": "2ebb8f3d649dd3324c2e60255cd2a066740bef7fd3a3faf1f0e43d33c727937a",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_emoji"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_emoji"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_c2e/lang_resource/default_linuxpath_suffix": {
+  "bytes": 44,
+  "sha256": "eee9022f5998914456e53ca5cb029bfcdea731d7970978b89e6dd32daecfadf0",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_linuxpath_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2j/lang_resource/default_linuxpath_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2k/lang_resource/default_linuxpath_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_linuxpath_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_j2c/lang_resource/default_linuxpath_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_k2c/lang_resource/default_linuxpath_suffix"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_c2e/lang_resource/default_placeholder_url_domainName_suffix": {
+  "bytes": 44,
+  "sha256": "ef6546bd07abec46085092776a9993a9e5299b3df4c4a17cd38058a4cb6c665b",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_placeholder_url_domainName_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_placeholder_url_domainName_suffix"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_c2e/lang_resource/default_placeholder_url_prefix": {
+  "bytes": 32,
+  "sha256": "ebbc2ac13ea9a9ff6525fd6e5c0010147724e9e1e86d10350884d0098ccf664b",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_placeholder_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2j/lang_resource/default_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2k/lang_resource/default_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_placeholder_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_j2c/lang_resource/default_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_k2c/lang_resource/default_url_prefix"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_c2e/lang_resource/default_postfix": {
+  "bytes": 17,
+  "sha256": "a3b86a8a80e0a82f091bd9c498aa937ab0804487a3f49a1e0588017a15c6ae24",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_postfix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2j/lang_resource/default_postfix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2k/lang_resource/default_postfix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_postfix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_j2c/lang_resource/default_postfix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_k2c/lang_resource/default_postfix"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_c2e/lang_resource/default_prefix.en": {
+  "bytes": 263,
+  "sha256": "589a163c3e64188eb0a26ad1b72f1466fa40bf02d8f92fc8976e0ae0d889a112",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_prefix.en"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2j/lang_resource/default_prefix.en"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2k/lang_resource/default_prefix.en"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_prefix.en"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_j2c/lang_resource/default_prefix.en"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_k2c/lang_resource/default_prefix.en"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_c2e/lang_resource/default_url_domainName_suffix": {
+  "bytes": 19,
+  "sha256": "d2789eb222aab09fffb6ea436ef0ac8bce768cdc144666a53ef6b3a33025e83a",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_url_domainName_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2j/lang_resource/default_url_domainName_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2k/lang_resource/default_url_domainName_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_url_domainName_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_j2c/lang_resource/default_url_domainName_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_k2c/lang_resource/default_url_domainName_suffix"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_c2e/lang_resource/default_url_prefix": {
+  "bytes": 32,
+  "sha256": "ebbc2ac13ea9a9ff6525fd6e5c0010147724e9e1e86d10350884d0098ccf664b",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_placeholder_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2j/lang_resource/default_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2k/lang_resource/default_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_placeholder_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_j2c/lang_resource/default_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_k2c/lang_resource/default_url_prefix"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_c2e/lang_resource/default_winpath_suffix": {
+  "bytes": 79,
+  "sha256": "cee7de5774e717fa51f0b1edc4a3a747c71ad414ec233179aac64550e25f4e7c",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_winpath_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2j/lang_resource/default_winpath_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2k/lang_resource/default_winpath_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_winpath_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_j2c/lang_resource/default_winpath_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_k2c/lang_resource/default_winpath_suffix"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_c2e/lang_resource/engBiWord.dic": {
+  "bytes": 5876,
+  "sha256": "f142eea16c288fe8b8b87053acd2122ac7a7e1c808f123b79e845d1ebda02177",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/engBiWord.dic"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/engBiWord.dic"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_c2e/lang_resource/engWord.dic": {
+  "bytes": 28045,
+  "sha256": "79bab0f6e7a7bd68b6c6f416e1250b67b2eed4bdb70bb65d721d51c1c257ace8",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/engWord.dic"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/engWord.dic"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_c2e/model-140000-qsh64.bin": {
+  "bytes": 53283520,
+  "sha256": "22c5c9028fc4198abdb9729709e2bdbe95a9926b60ffe802a9b10f024916bea3",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/model-140000-qsh64.bin"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_c2e/model.cfg": {
+  "bytes": 341,
+  "sha256": "555e58a823191c5226d00cdeba3797f0e236abd8ac27c8b41f60dbe896f8d86c",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/model.cfg"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_c2e/truecase.vocab.bin": {
+  "bytes": 6714,
+  "sha256": "8f08820984a128dccea16387b710a557486417eade895bc24db37a9ba6e97c7d",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/truecase.vocab.bin"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_e2c/bpe_exclude.voc": {
+  "bytes": 171,
+  "sha256": "4009f173f5d6bb581a8fa85f2979868a765053677bae0949cf2c21af4bff849c",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/bpe_exclude.voc"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_e2c/checklist": {
+  "bytes": 1233,
+  "sha256": "61512cefef1f0cd7d88cbdc24c6aa98aed2b243f9bef6acbd756e8ab4783c1f1",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/checklist"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_e2c/e2c_qt_225_qsh32.bin": {
+  "bytes": 59323456,
+  "sha256": "4ce6b7f4370f3235c5ebf7b22d5711aac1a8dab93c19fb40705af6dd33f51ca3",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/e2c_qt_225_qsh32.bin"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_e2c/en-case.vocab.bin": {
+  "bytes": 6714,
+  "sha256": "a7ee8c5e513f0910c505cd93a62497c9a7362ea724455e35a83a84ab776b90ee",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/en-case.vocab.bin"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_e2c/en-cn.vocab.bin": {
+  "bytes": 1839646,
+  "sha256": "384111940426393fdd4953ce889f561aec226be8cac9ab2cd49e54596689e278",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/en-cn.vocab.bin"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_e2c/encn.codec.bin": {
+  "bytes": 1192209,
+  "sha256": "46ec7a2dc2a5f07347a5230b4cb88eb5bba719e398c40c34ee27ef72f248b9f2",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/encn.codec.bin"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_e2c/lang_resource/HONORIFICS": {
+  "bytes": 366,
+  "sha256": "b8d272faf1f807e881b6258ce3d6bee690b9cd42c0005c0dad727b099e3df787",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/HONORIFICS"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2j/lang_resource/HONORIFICS"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2k/lang_resource/HONORIFICS"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/HONORIFICS"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_j2c/lang_resource/HONORIFICS"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_k2c/lang_resource/HONORIFICS"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_e2c/lang_resource/chnWordSegVocab": {
+  "bytes": 1798706,
+  "sha256": "a254263fc33cf087aed90796fb409d12a24c1dd94f0f5ebef130d7ba2264ad1c",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2j/lang_resource/chnWordSegVocab"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2k/lang_resource/chnWordSegVocab"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/chnWordSegVocab"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_j2c/lang_resource/chnWordSegVocab"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_k2c/lang_resource/chnWordSegVocab"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_e2c/lang_resource/default_emoji": {
+  "bytes": 181974,
+  "sha256": "2ebb8f3d649dd3324c2e60255cd2a066740bef7fd3a3faf1f0e43d33c727937a",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_emoji"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_emoji"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_e2c/lang_resource/default_linuxpath_suffix": {
+  "bytes": 44,
+  "sha256": "eee9022f5998914456e53ca5cb029bfcdea731d7970978b89e6dd32daecfadf0",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_linuxpath_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2j/lang_resource/default_linuxpath_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2k/lang_resource/default_linuxpath_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_linuxpath_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_j2c/lang_resource/default_linuxpath_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_k2c/lang_resource/default_linuxpath_suffix"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_e2c/lang_resource/default_placeholder_url_domainName_suffix": {
+  "bytes": 44,
+  "sha256": "ef6546bd07abec46085092776a9993a9e5299b3df4c4a17cd38058a4cb6c665b",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_placeholder_url_domainName_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_placeholder_url_domainName_suffix"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_e2c/lang_resource/default_placeholder_url_prefix": {
+  "bytes": 32,
+  "sha256": "ebbc2ac13ea9a9ff6525fd6e5c0010147724e9e1e86d10350884d0098ccf664b",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_placeholder_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2j/lang_resource/default_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2k/lang_resource/default_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_placeholder_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_j2c/lang_resource/default_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_k2c/lang_resource/default_url_prefix"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_e2c/lang_resource/default_postfix": {
+  "bytes": 17,
+  "sha256": "a3b86a8a80e0a82f091bd9c498aa937ab0804487a3f49a1e0588017a15c6ae24",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_postfix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2j/lang_resource/default_postfix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2k/lang_resource/default_postfix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_postfix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_j2c/lang_resource/default_postfix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_k2c/lang_resource/default_postfix"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_e2c/lang_resource/default_prefix.en": {
+  "bytes": 263,
+  "sha256": "589a163c3e64188eb0a26ad1b72f1466fa40bf02d8f92fc8976e0ae0d889a112",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_prefix.en"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2j/lang_resource/default_prefix.en"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2k/lang_resource/default_prefix.en"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_prefix.en"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_j2c/lang_resource/default_prefix.en"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_k2c/lang_resource/default_prefix.en"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_e2c/lang_resource/default_url_domainName_suffix": {
+  "bytes": 19,
+  "sha256": "d2789eb222aab09fffb6ea436ef0ac8bce768cdc144666a53ef6b3a33025e83a",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_url_domainName_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2j/lang_resource/default_url_domainName_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2k/lang_resource/default_url_domainName_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_url_domainName_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_j2c/lang_resource/default_url_domainName_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_k2c/lang_resource/default_url_domainName_suffix"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_e2c/lang_resource/default_url_prefix": {
+  "bytes": 32,
+  "sha256": "ebbc2ac13ea9a9ff6525fd6e5c0010147724e9e1e86d10350884d0098ccf664b",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_placeholder_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2j/lang_resource/default_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2k/lang_resource/default_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_placeholder_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_j2c/lang_resource/default_url_prefix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_k2c/lang_resource/default_url_prefix"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_e2c/lang_resource/default_winpath_suffix": {
+  "bytes": 79,
+  "sha256": "cee7de5774e717fa51f0b1edc4a3a747c71ad414ec233179aac64550e25f4e7c",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/default_winpath_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2j/lang_resource/default_winpath_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2k/lang_resource/default_winpath_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/default_winpath_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_j2c/lang_resource/default_winpath_suffix"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_k2c/lang_resource/default_winpath_suffix"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_e2c/lang_resource/engBiWord.dic": {
+  "bytes": 5876,
+  "sha256": "f142eea16c288fe8b8b87053acd2122ac7a7e1c808f123b79e845d1ebda02177",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/engBiWord.dic"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/engBiWord.dic"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_e2c/lang_resource/engWord.dic": {
+  "bytes": 28045,
+  "sha256": "79bab0f6e7a7bd68b6c6f416e1250b67b2eed4bdb70bb65d721d51c1c257ace8",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_c2e/lang_resource/engWord.dic"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/lang_resource/engWord.dic"
+   ]
+  ]
+ },
+ "board/translation/models/transformer_e2c/model.cfg": {
+  "bytes": 361,
+  "sha256": "982cd37e567f6d2360dad8693724e925548b7b628ac1f22cdca708e693027768",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/nmt/transformer_e2c/model.cfg"
+   ]
+  ]
+ },
+ "board/tts/libfspTst_RK3326_Release.so": {
+  "bytes": 118224,
+  "sha256": "2ede2884a4daa903726112ccc456861aff68c9a3cb595a93f9b1d8a5d30191cf",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libfspTst_RK3326_Release.so"
+   ]
+  ]
+ },
+ "board/tts/libpcre32.so.0": {
+  "bytes": 165696,
+  "sha256": "5121ee63649f2fc31378397d280d07ad3c9b50fb15aebd09a4dcc32c93fb8d8e",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libpcre32.so"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libpcre32.so.0"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libpcre32.so.0.0.12"
+   ]
+  ]
+ },
+ "board/tts/libytts.so": {
+  "bytes": 5813712,
+  "sha256": "68b292d738423a233846f731a928046d54b7719baafcaa645a46eac698d2ad5f",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libytts.so"
+   ]
+  ]
+ },
+ "board/tts/model/cn_youxiaoqin/offline_am-dec_en_youxiaoqin_16k_float32_20211105.onnx_converted_float16.mnn": {
+  "bytes": 8337800,
+  "sha256": "932439d02e7699f35748635e2b28d9df5da15943841f0d70be4987f39672bee5",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/cn_youxiaoqin/offline_am-dec_en_youxiaoqin_16k_float32_20211105.onnx_converted_float16.mnn"
+   ]
+  ]
+ },
+ "board/tts/model/cn_youxiaoqin/offline_am-enc_en_youxiaoqin_16k_float32_20211105.onnx_converted_float16.mnn": {
+  "bytes": 10211476,
+  "sha256": "a50e66878e53450f4b6e37ec5d4d0f0683e486592efddac2d9342522339f5ac8",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/cn_youxiaoqin/offline_am-enc_en_youxiaoqin_16k_float32_20211105.onnx_converted_float16.mnn"
+   ]
+  ]
+ },
+ "board/tts/model/cn_youxiaoqin/offline_voc_cn_youxiaoqin_16k_float32_20211011.onnx_convert_float16.mnn": {
+  "bytes": 1531280,
+  "sha256": "1819f593641e7024b011cadc0031caffcb69712aa122f384f76fbf14eea25f86",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/cn_youxiaoqin/offline_voc_cn_youxiaoqin_16k_float32_20211011.onnx_convert_float16.mnn"
+   ]
+  ]
+ },
+ "board/tts/model/conf.json": {
+  "bytes": 6237,
+  "sha256": "db25d9634d42c4f9895183fb8620876614ef5594b8a5b30fdcfd63a60c378587",
+  "source_sha256": "d66739df5e0b5d7fc115670765ee33b89fc7d3a23549047acd4d390cab922532",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/conf.json"
+   ]
+  ],
+  "tts_threads": 4
+ },
+ "board/tts/model/en_youxiaokai/offline_am-dec_en_youxiaokai_16k_float32_20211215.onnx_convert_float16.mnn": {
+  "bytes": 8337800,
+  "sha256": "8b95c53d5741ce806250a0318dcc2a4720a0266473adaff7e225d932315fe66e",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/en_youxiaokai/offline_am-dec_en_youxiaokai_16k_float32_20211215.onnx_convert_float16.mnn"
+   ]
+  ]
+ },
+ "board/tts/model/en_youxiaokai/offline_am-enc_en_youxienkai_16k_float32_20211215.onnx_convert_float16.mnn": {
+  "bytes": 10273428,
+  "sha256": "8ee3dca1a15322b1c5c99cb18d44eea3d0b8f51f6a4f29c35445da9100d3c158",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/en_youxiaokai/offline_am-enc_en_youxienkai_16k_float32_20211215.onnx_convert_float16.mnn"
+   ]
+  ]
+ },
+ "board/tts/model/en_youxiaokai/offline_voc_en_youxiaokai_16k_float32_20211215.onnx_convert_float16.mnn": {
+  "bytes": 1531280,
+  "sha256": "bcf798a9b462ce4096006fc378d7dcfb1c36c56e05a0f5e52630182425c849b6",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/en_youxiaokai/offline_voc_en_youxiaokai_16k_float32_20211215.onnx_convert_float16.mnn"
+   ]
+  ]
+ },
+ "board/tts/model/en_youxiaokai/offline_voc_en_youxiaokai_24k_float32_20211220.onnx_convert_float16.mnn": {
+  "bytes": 2117008,
+  "sha256": "d971dcf36c8f50461638004bb0432146d489385ec3181f7e5e4b7b5b2b7b163f",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/en_youxiaokai/offline_voc_en_youxiaokai_24k_float32_20211220.onnx_convert_float16.mnn"
+   ]
+  ]
+ },
+ "board/tts/model/en_youxiaoke/offline_voc_en_youxiaoke_16k_float32_20210810.onnx_convert_float16.mnn": {
+  "bytes": 2051416,
+  "sha256": "b62bf6cb43574f70e44fa11fb5286f06bce2a3155c7ed960ed10cbd325c8aebd",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/en_youxiaoke/offline_voc_en_youxiaoke_16k_float32_20210810.onnx_convert_float16.mnn"
+   ]
+  ]
+ },
+ "board/tts/model/en_youxiaoke/online_am-dec_en_youxiaoke_16k_float32_20210803.onnx_convert_float16.mnn": {
+  "bytes": 8337760,
+  "sha256": "6a4848fcac5dc2aeba5e34cbbf26716694650ba198bf3e18906350c2896ed608",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/en_youxiaoke/online_am-dec_en_youxiaoke_16k_float32_20210803.onnx_convert_float16.mnn"
+   ]
+  ]
+ },
+ "board/tts/model/en_youxiaoke/online_am-enc_en_youxiaoke_16k_float32_20210803.onnx_convert_float16.mnn": {
+  "bytes": 10326328,
+  "sha256": "be08581b1abfc6cde5937ca5a88ce975b43976fc238eb2fdd3d455f904ef3e45",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/en_youxiaoke/online_am-enc_en_youxiaoke_16k_float32_20210803.onnx_convert_float16.mnn"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/Date_new_concat.fst": {
+  "bytes": 98950,
+  "sha256": "73b9793f4031a87b35e43fe6b7406048e91a731390e7ef1bd8911d2aca37ad51",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/Date_new_concat.fst"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/Fraction_in_concat.fst": {
+  "bytes": 83876,
+  "sha256": "ff78bcb558e5a2cd9ceaed1986b0ed1bb885de55b118ef485be9fc7454d572a1",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/capt/frontend/Fraction_in_concat.fst"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/Fraction_in_concat.fst"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/Ordinal_concat.fst": {
+  "bytes": 30716,
+  "sha256": "ad50196c6a34d0c9988cca7e4dacff6d5594ccf89b3c4b92c5b642b92eff24fb",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/capt/frontend/Ordinal_concat.fst"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/Ordinal_concat.fst"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/Time_concat.fst": {
+  "bytes": 36304,
+  "sha256": "53305a0dab16efea5e28252027fbdabf422069ec5499e788ed707a4802d70c9c",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/capt/frontend/Time_concat.fst"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/Time_concat.fst"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/abbr_concat.fst": {
+  "bytes": 11894,
+  "sha256": "01c042d76932fef8bf2e68149166f72802de030d754b2ef0940161f042637000",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/abbr_concat.fst"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/abbr_concat.fst.bak": {
+  "bytes": 11950,
+  "sha256": "8e8b76ecc46405a45ab8010aaa25577987f6ebb250455e44bc86418ca477b413",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/capt/frontend/abbr_concat.fst"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/abbr_concat.fst.bak"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/currency_unit_plural_concat.fst": {
+  "bytes": 57636,
+  "sha256": "ec943d672122d86634410e2d09d2d69f7cd145fb08696cc5679a7b20932f6977",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/capt/frontend/currency_unit_plural_concat.fst"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/currency_unit_plural_concat.fst"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/currency_unit_singular_concat.fst": {
+  "bytes": 60772,
+  "sha256": "b18b91d1ec034196854102e9aea7869d345d0e7156a467451bea16c9d072193b",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/capt/frontend/currency_unit_singular_concat.fst"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/currency_unit_singular_concat.fst"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/decimal_concat.fst": {
+  "bytes": 31728,
+  "sha256": "b894e6b3f7117119084185ee7d0f0ec286bdd7b6899c776968a0e4afb1b621b9",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/capt/frontend/decimal_concat.fst"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/decimal_concat.fst"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/decimal_integer_concat.fst": {
+  "bytes": 6420,
+  "sha256": "1dccf7d8bd76d24dba436cb66a4a484ec59de776fbe6c2dc032076922f3ecbb1",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/capt/frontend/decimal_integer_concat.fst"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/decimal_integer_concat.fst"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/digit_kmbt_concat.fst": {
+  "bytes": 7332,
+  "sha256": "581f6ba256c5c3a61857de050d5abcc1da118c364f53045ffdbd7a5b580eab46",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/capt/frontend/digit_kmbt_concat.fst"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/digit_kmbt_concat.fst"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/eng_t2s.txt": {
+  "bytes": 25,
+  "sha256": "9a5b5c6a861c02dc2d24657ae640b6b746f39fb74d03ee5961bddf790db3ba1f",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/eng_t2s.txt"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/engdict.dat": {
+  "bytes": 2508688,
+  "sha256": "eacd41f8cd3a4c44c7f97d2a310acb15beecb0f7693421c4d391aeef5a2c4144",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/engdict.dat"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/engdict.dat.bk": {
+  "bytes": 2553638,
+  "sha256": "13bbb44294bcf9d43cd93e327506c23cb6077755d0dc2da88e0988660fb3bbe9",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/engdict.dat.bk"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/england_engdict.dat": {
+  "bytes": 1866406,
+  "sha256": "c0db2f4d39ae23fc20c3837e549d90681c54892a5cef749f9bd320352ef71c1c",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/england_engdict.dat"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/england_engdict_nowfst.dat": {
+  "bytes": 2237168,
+  "sha256": "090fc3b8d6f579f67f97a42c983a6af506c2ca49f32d0e06d19d4d03c34d8c33",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/england_engdict_nowfst.dat"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/front_zh_multialbert_g2p_prosody.mnn.bin.deletejb": {
+  "bytes": 5037912,
+  "sha256": "11cf5e39bece128c4ba228da2a1871229a40faa0dec90d1e2cb7fb9ce6ef4983",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/capt/frontend/front_zh_multialbert_g2p_prosody.mnn.bin.deletejb"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/front_zh_multialbert_g2p_prosody.mnn.bin.deletejb"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/homographmodel.mnn.bin.uk": {
+  "bytes": 261665,
+  "sha256": "99670cc279a9cfc875478d1b7f9cf473ab7ff27a4aaffa3071421a602e15a894",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/capt/frontend/homographmodel.mnn.bin.uk"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/homographmodel.mnn.bin.uk"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/homographmodel.mnn.bin.xcx.v4": {
+  "bytes": 262459,
+  "sha256": "1e536ece2dc10818898fa8f7d312bf31ca6d20f4206990cc348500f8dcdc85a6",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/capt/frontend/homographmodel.mnn.bin.xcx.v4"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/homographmodel.mnn.bin.xcx.v4"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/model.uk.fst": {
+  "bytes": 9879898,
+  "sha256": "5b7d30c52a85599989865eb71a997c52f00fe28b1f34a9d7265f2f44c966ebf5",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/model.uk.fst"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/model_fp16.npz": {
+  "bytes": 4667742,
+  "sha256": "6680b5731e34d3ce74150e5f0ab6d8a8b230e90c56c072c6bebf8b5a0c1065b7",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/capt/frontend/model_fp16.npz"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/model_fp16.npz"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/model_homograph_fp16.npz": {
+  "bytes": 8795322,
+  "sha256": "48f595346ae268cb2adb963fe3c1a4ed3ee5d32c38efb4e9a23f2dee5dfe6818",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/capt/frontend/model_homograph_fp16.npz"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/model_homograph_fp16.npz"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/model_homograph_fp16.uk.npz": {
+  "bytes": 8794806,
+  "sha256": "dcbaaccbb4cf03199d7a904169ab03555216a4d248192aa86e4df85c6a9c2151",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/model_homograph_fp16.uk.npz"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/patch.txt.bin": {
+  "bytes": 90,
+  "sha256": "66a5116cf22c961d7b89930a73bab0640b0933d440b8d1183cce4f81c6ea2295",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/patch.txt.bin"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/rule": {
+  "bytes": 73811,
+  "sha256": "41797ba763f9b779f504dcd96735cda5cf854adee4ecb41a3a79ab1d3f3dc637",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/rule"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/rule_old": {
+  "bytes": 42677,
+  "sha256": "0579fc8b90d9b2c2599c6366293808116dd0b753b3fc964a4cae118c4dd16115",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/rule_old"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/unit_plural_concat.fst": {
+  "bytes": 54610,
+  "sha256": "08913f0db261707d46b11a335c3959383e6759b15412b15b153da11ab9f97c1b",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/unit_plural_concat.fst"
+   ]
+  ]
+ },
+ "board/tts/model/frontend/unit_singular_concat.fst": {
+  "bytes": 53640,
+  "sha256": "ac0ffa2d591caffa0cc9d04044d4fa6d978e39caa8c34f933195e6d1bd33269c",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/capt/frontend/unit_singular_concat.fst"
+   ],
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/tts/Fontsyd/model/frontend/unit_singular_concat.fst"
+   ]
+  ]
+ },
+ "board/tts/stock-loader": {
+  "bytes": 146544,
+  "sha256": "120db0c4029c75663d93b8fe8a0d82423d7b70a8a16e2e8dfe155d4655d31793",
+  "sources": [
+   [
+    "factory",
+    "lib/ld-2.27.so"
+   ]
+  ]
+ },
+ "data/cherry-runtime/stock-engine/runtime/ld-linux-aarch64.so.1": {
+  "bytes": 146544,
+  "sha256": "120db0c4029c75663d93b8fe8a0d82423d7b70a8a16e2e8dfe155d4655d31793",
+  "sources": [
+   [
+    "factory",
+    "lib/ld-2.27.so"
+   ]
+  ]
+ },
+ "data/cherry-runtime/stock-engine/runtime/libYoudaoStitch.so": {
+  "bytes": 8365448,
+  "sha256": "98d38382780e6d017a1ba8f00fc4d825d1613e07b31d0a48f275d62edb72dd65",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libYoudaoStitch.so"
+   ]
+  ]
+ },
+ "data/cherry-runtime/stock-engine/runtime/libc.so.6": {
+  "bytes": 1288368,
+  "sha256": "5b4d02dfb636eddb65717f9f157046350396e2fa15c66eed7dfc6159f9fd2bc5",
+  "sources": [
+   [
+    "factory",
+    "lib/libc-2.27.so"
+   ]
+  ]
+ },
+ "data/cherry-runtime/stock-engine/runtime/libdl.so.2": {
+  "bytes": 14328,
+  "sha256": "1262a7748470fd2ae0ec73655ac1861215b3dfaa27cce9cd2d236c51415dc2ee",
+  "sources": [
+   [
+    "factory",
+    "lib/libdl-2.27.so"
+   ]
+  ]
+ },
+ "data/cherry-runtime/stock-engine/runtime/libgcc_s.so.1": {
+  "bytes": 63656,
+  "sha256": "5406103fe17e1ded85d4814d6e0753bcca4857fbb00e5f007b5f4da1ced3d4ed",
+  "sources": [
+   [
+    "factory",
+    "lib/libgcc_s.so.1"
+   ]
+  ]
+ },
+ "data/cherry-runtime/stock-engine/runtime/libgomp.so.1": {
+  "bytes": 117512,
+  "sha256": "5e2c4d6f01a930b6df0104371de3c3e55c3b3ce509c37e83d7100453c92db917",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libgomp.so.1.0.0"
+   ]
+  ]
+ },
+ "data/cherry-runtime/stock-engine/runtime/libm.so.6": {
+  "bytes": 681920,
+  "sha256": "ff164be69f66790b491668286de66fb0ba5b2c45e52d820d5ea3ecfce998cbf1",
+  "sources": [
+   [
+    "factory",
+    "lib/libm-2.27.so"
+   ]
+  ]
+ },
+ "data/cherry-runtime/stock-engine/runtime/libopencv_core.so.3.4": {
+  "bytes": 3224400,
+  "sha256": "c6052533403d5c259665d73089bd219070c5b1612aa49381e29bcdb39fdb3daa",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libopencv_core.so.3.4.3"
+   ]
+  ]
+ },
+ "data/cherry-runtime/stock-engine/runtime/libopencv_imgcodecs.so.3.4": {
+  "bytes": 2754832,
+  "sha256": "8e3446005893d2f1c902c9cda3edcb2498a5fbaae811b0199bc385ff1678d4b6",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libopencv_imgcodecs.so.3.4.3"
+   ]
+  ]
+ },
+ "data/cherry-runtime/stock-engine/runtime/libopencv_imgproc.so.3.4": {
+  "bytes": 3340040,
+  "sha256": "8695d9949293a05d2b2a83f2b47f84d7385cd51521ad20193c007cee8d209b62",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libopencv_imgproc.so.3.4.3"
+   ]
+  ]
+ },
+ "data/cherry-runtime/stock-engine/runtime/libopencv_objdetect.so.3.4": {
+  "bytes": 370600,
+  "sha256": "29f7c8286a53ab796ed83be0ed70518e0ccfc216b763b137068fd3c06773597e",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libopencv_objdetect.so.3.4.3"
+   ]
+  ]
+ },
+ "data/cherry-runtime/stock-engine/runtime/libpthread.so.0": {
+  "bytes": 139384,
+  "sha256": "e640c4a0a39f58c6fb37ccbad533767bb5bc04f8f95653c00506c830c116cbf8",
+  "sources": [
+   [
+    "factory",
+    "lib/libpthread-2.27.so"
+   ]
+  ]
+ },
+ "data/cherry-runtime/stock-engine/runtime/libstdc++.so.6": {
+  "bytes": 1313312,
+  "sha256": "6c91455c29740ad340528a103d665467906a355269a4343ad151d3fcb64734d1",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libstdc++.so.6.0.22"
+   ]
+  ]
+ },
+ "data/cherry-runtime/stock-engine/runtime/libyocr.so": {
+  "bytes": 11751656,
+  "sha256": "76b0dc35cd36fae545872c14a6107b60e32e9a716567f9f3c6cd46a87841ae55",
+  "sources": [
+   [
+    "factory",
+    "oem/YoudaoDictPen/output/libs/libyocr.so"
+   ]
+  ]
+ },
+ "data/cherry-runtime/stock-engine/runtime/libz.so.1": {
+  "bytes": 71808,
+  "sha256": "62c9441dbeb3b92f9f3128175f83fd3c40dbb72ddb2b12e58dfb83ac9a542788",
+  "sources": [
+   [
+    "factory",
+    "usr/lib/libz.so.1.2.11"
+   ]
+  ]
+ }
+}

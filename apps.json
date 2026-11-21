@@ -1,0 +1,66 @@
+{
+  "com.topjohnwu.magisk": [
+    {
+      "name": "Magisk-v31.1.apk",
+      "sha256": "89cefac0a318afa39fb3880c45c87b036c05bc1ebf02a7a715b7f8d7c26ac6e7"
+    }
+  ],
+  "local.cherry.originalui": [
+    {
+      "name": "cherry-original-ui.apk",
+      "sha256": "e64c776442c8039bc2884fb9a6e26a433d8d65aff5ce23acd0a30b55f34fab6b"
+    }
+  ],
+  "local.cherry.bootswitch": [
+    {
+      "name": "cherry-system-switch.apk",
+      "sha256": "254d2982f342403192b215d62b3f7d4c41bef659904452ae384a53a0e17f20bf"
+    }
+  ],
+  "mark.via.gp": [
+    {
+      "name": "via-release.apk",
+      "sha256": "ed7d947fb9fa787b43d16ee85edef655799ecedacf510673f0c7417ca5b9d03c"
+    }
+  ],
+  "org.koreader.launcher": [
+    {
+      "name": "koreader-android-arm64-v2026.07.1.apk",
+      "sha256": "89cecbe06eacd2ff7d91e37152d6beeb52809f2ca38060b6515ed8b00d152412"
+    }
+  ],
+  "com.primatelabs.geekbench": [
+    {
+      "name": "base.apk",
+      "sha256": "7390de3494dc0b28ae69a677e891e6a897a78d8b63260117789121e327845bcf"
+    },
+    {
+      "name": "split_config.arm64_v8a.apk",
+      "sha256": "ed8b9b3ea2b3f855868e0557b14571334ce34809f5fcc42816cd8f41dfda3a70"
+    },
+    {
+      "name": "split_config.en.apk",
+      "sha256": "0a8e2e5b5436648105eb12f3588f45a25ecb3839f86ab3f7e7ff257bd2ac2d62"
+    },
+    {
+      "name": "split_config.ldpi.apk",
+      "sha256": "6a0dcb76f32fcd2a2e4472ce632fe5d6e853529e0ac18bd14f954c0cffb93b26"
+    },
+    {
+      "name": "split_config.zh.apk",
+      "sha256": "83780d211ce52fe934b63268c3827cd4779dc73f578862db5d18aad9bc790140"
+    }
+  ],
+  "org.linaro.glmark2": [
+    {
+      "name": "glmark2-2023.01.apk",
+      "sha256": "45bb2451be0db777cb5e5ac1cadcc7a09333e59a0912d6536108d2b66857d6ae"
+    }
+  ],
+  "local.cherry.modes": [
+    {
+      "name": "cherry-modes.apk",
+      "sha256": "43e44298fb82cd4e7653de1a270ba723c15182563f856d5e1924c630c12100b6"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+platform/
+update/
+*.img
+*.ext4
+*.apk
+*.zip

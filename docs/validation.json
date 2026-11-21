@@ -1,0 +1,18 @@
+{
+  "wrong_serial_rejected": true,
+  "late_mismatch_no_early_write": true,
+  "sector_partial_write_simulated": true,
+  "interrupted_install_resumed": true,
+  "all_changed_blocks_verified": 454,
+  "installed_files_verified": true,
+  "factory_system_partitions_unchanged": true,
+  "standalone_recovery_verified": true,
+  "whole_disk_restored_bytes": 15518924800,
+  "whole_disk_digest_matched": true,
+  "alternate_identity_templates_verified": true,
+  "baseline": "Reconstructed file-backed factory layout with original boot images and recovered stock files",
+  "physical_first_install_tested": false,
+  "platform_files": 68,
+  "factory_import_files": 562,
+  "bundled_apps": 8
+}
