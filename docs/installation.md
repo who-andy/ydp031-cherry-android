@@ -1,60 +1,136 @@
-# Cherry Android 词典笔安装器
+# 有道词典笔 3（YDP031）一步步安装 Android
 
-适配有道 YDP031CHNSTD、16 GB eMMC、原厂 B 槽 OS 3.4.6。适用范围由两份 GPT、四份设备标识、原厂启动镜像和实际资源的校验结果共同确定。其他版本会在准备阶段退出。
+**开始前核对三样东西**：你的笔是实测完整型号 **YDP031CHNSTD（16 GB）**，原厂 B 槽为 **OS 3.4.6**；电脑已经通过[五项自测](start.md)；你手上已经有完整的 `platform` 文件夹。只有公开下载包时，可以先看[装完是什么样子](results.md)。
 
-这是首次安装候选版。已经装过项目双系统的词典笔请保留原有安装，使用专门的升级包。安装器源码包需要单独提供与清单匹配的平台组件。本地离线版的 platform 目录已备齐这些输入。两种包使用相同的安装程序。
+这份教程用于首次安装。已经装有本项目双系统的笔，请保留现有安装。RC1 已在磁盘副本上验证首次安装和恢复，另一支未经改装的笔尚未完成首次冷启动验收。
 
-## 安装前
+## 第 1 步　把文件放对地方
 
-电脑需要 Python 3.9 或以上。生成安装文件需要 Linux、管理员权限、util-linux、e2fsprogs、GNU coreutils 和 lz4。Apple Silicon Mac 可以在 ARM64 Linux 虚拟机内执行准备，USB 备份、校验、写入和恢复可以在 Mac 完成。将需跨系统使用的目录放在双方都能访问的磁盘，建议预留 40 GiB。主机侧需要可正常使用的 Rockchip rkdeveloptool，设备由所有者通过已有的维护方式进入 Loader。
-
-安装器保留原厂 system A、system B、boot B 和原分区表。安卓使用 userdisk 中独立的 2.5 GiB 数据文件；文件实际占用随使用增长。安装会替换 boot A，在原厂桌面注册「返回安卓」，最后设置 A 槽试启动两次。使用双系统期间，原厂 OTA 可能占用同一个 A 槽；恢复原厂备份后再更新原厂固件。
-
-## 备份和生成
-
-下列命令在解压后的目录运行。将 YOUR_SERIAL 换成笔的设备序列号，将各路径换成自己的实际路径。备份和生成的 update 目录含本机数据，应由设备所有者单独保管。
+在个人文件夹下打开 `CherryPen → installer`。把配套的整个 `platform` 文件夹放进去，和 `install.py` 并排。打开终端，复制下面两行。
 
 ```sh
+cd "$HOME/CherryPen/installer"
 python3 install.py verify-platform --platform ./platform
-python3 install.py backup --loader rkdeveloptool --serial YOUR_SERIAL --output /private/path/stock.img
-python3 install.py inspect --backup /private/path/stock.img
 ```
 
-备份覆盖 15,518,924,800 字节的 eMMC 用户区，包含安装涉及的全部区域。安装器会第二次读取设备，与本地备份逐一校验摘要。将输出的 SHA-256 和备份一起保存。工具对两个 eMMC 硬件启动区均无写入操作。
+**看到「平台组件校验通过，文件数 68」再继续。** 找不到文件时，看看是否多套了一层 `platform/platform`。如果手头只有 `platform-files.json`，还缺实际组件。
 
-在 Linux 上从这支笔的原厂备份生成安装文件。源文件系统以只读方式挂载。程序从中重建原厂扫描、翻译、界面和发音所需的资源，并在新的文件系统副本中登记应用。备份中的词库、发音库与原厂桌面应用随用户分区保留。输出目录必须是一个新路径。
+接着按[准备电脑工具](tools.md)里自己电脑对应的那一节操作。后面每一段都写明了在哪台电脑上运行。
+
+## 第 2 步　让电脑认出自己的笔
+
+在实际连接 USB 的电脑上操作。用能传数据的线连接词典笔，保持在原厂界面。这里沿用设备所有者已经可以使用的 USB 调试入口。
 
 ```sh
-sudo python3 install.py prepare --backup /private/path/stock.img --platform ./platform --output /private/path/update
+cd "$HOME/CherryPen/installer"
+export PATH="$HOME/CherryPen/tools:$PATH"
+adb devices
 ```
 
-## 写入
-
-目标笔在 Loader 下保持连接。校验阶段会检查实际设备身份、原厂系统、每个预期改动块和启动回退记录。安装时先写用户分区，再写 boot A，最后写启动选择。每个写入块均回读核对。中断后可用同一份备份和 update 重新运行安装命令。
+表头下应当只有一行，左边是这支笔自己的序列号，右边是 `device`。若显示 `unauthorized`，先解锁笔，在屏幕上确认是你自己的电脑并允许 USB 调试，再运行一次。若只有表头，先检查数据线和 USB 连接。**看见一支状态为 `device` 的笔后**，再复制下面几行。
 
 ```sh
-python3 install.py check --loader rkdeveloptool --backup /private/path/stock.img --package /private/path/update --confirm-serial YOUR_SERIAL
-python3 install.py install --loader rkdeveloptool --backup /private/path/stock.img --package /private/path/update --confirm-serial YOUR_SERIAL
+mkdir -p "$HOME/CherryPen/private"
+adb get-serialno > "$HOME/CherryPen/private/serial.txt"
+cat "$HOME/CherryPen/private/serial.txt"
+```
+
+屏幕上显示的号码应和刚才列表左边一致。后续命令会从这个文件读取号码，无需手动替换示例字符。接下来让笔重启到维护模式（Loader）。
+
+```sh
+adb -s "$(cat ../private/serial.txt)" reboot bootloader
+```
+
+等几秒再执行：
+
+```sh
+rkdeveloptool ld
+```
+
+看到一支设备，行中含 `Vid=0x2207,Pid=0x330d`，末尾是 **`Loader`**，就可以备份。此时笔的屏幕可能没有安卓桌面，以电脑上这行结果为准。
+
+## 第 3 步　保存自己的原厂备份
+
+仍在连接 USB 的电脑上操作。备份文件约 15.5 GB；电脑会读取两遍进行比对，期间保持连接。下面把结果同时保存到 `backup.log`，以后恢复时会用到。
+
+```sh
+if [ -e ../private/stock.img ]; then
+  echo "这个文件夹已经有备份，请先核对原来的 backup.log。"
+else
+  python3 install.py backup --loader rkdeveloptool --serial "$(cat ../private/serial.txt)" --output ../private/stock.img | tee -a ../private/backup.log
+fi
+```
+
+**等到出现「备份已回读，SHA-256」以及一长串字符。** 如果命令报错或没有这句话，先解决备份问题。再检查这份备份属于哪支笔：
+
+```sh
+python3 install.py inspect --backup ../private/stock.img
+```
+
+输出中的 `serial` 应与第 2 步一致。备份、日志和序列号在 `CherryPen/private` 里，请保管好；如果目录中已经有上次成功的备份，保留它和配套的日志，直接核对原来的日志。
+
+## 第 4 步　用备份制作这支笔的安装文件
+
+**Mac 用户**在 Mac 的终端复制这一段。命令会把制作工作交给第 1 步准备好的 Linux 虚拟机，USB 仍接在 Mac 上。
+
+```sh
+cd "$HOME/CherryPen/installer"
+limactl shell --workdir "$PWD" cherry-pen sudo python3 install.py prepare --backup ../private/stock.img --platform ./platform --output ../private/update
+```
+
+**Ubuntu 直连用户**只运行下面这一段。
+
+```sh
+cd "$HOME/CherryPen/installer"
+sudo python3 install.py prepare --backup ../private/stock.img --platform ./platform --output ../private/update
+```
+
+看到 **「本机安装文件已生成，差异块数」** 即完成，数字可以不同。此时只改动了电脑上的副本。若提示输出目录已存在，先确认是否已经成功生成；不同备份各自保管对应的 update 目录。
+
+## 第 5 步　先核对，再写入
+
+回到连着 USB 的电脑，词典笔应仍在 Loader 模式。第一段只检查设备、备份和安装文件能否对应。
+
+```sh
+cd "$HOME/CherryPen/installer"
+export PATH="$HOME/CherryPen/tools:$PATH"
+python3 install.py check --loader rkdeveloptool --backup ../private/stock.img --package ../private/update --confirm-serial "$(cat ../private/serial.txt)"
+```
+
+看到 **「设备、原厂回退、备份、写入范围和差异块已核验」** 再运行下一行。**从这里开始实际写入词典笔**，程序会修改用户分区、安卓启动位置和启动选择，保留两个原厂 system 分区和原厂 boot B。
+
+```sh
+python3 install.py install --loader rkdeveloptool --backup ../private/stock.img --package ../private/update --confirm-serial "$(cat ../private/serial.txt)"
+```
+
+等到 **「安装写入与回读完成」** 再重启：
+
+```sh
 rkdeveloptool rd
 ```
 
-首次进入安卓会安装 Magisk 管理器、原版词典、系统切换、设备模式、Via、KOReader、Geekbench 和 glmark2。设备模式控制学习和游戏后台；系统切换用于回原厂。调试电脑需要在安卓界面获得 USB 授权。
+## 第 6 步　开机后怎么验收
+
+1. 等安卓桌面出现，打开「设备模式」，点「学习模式」，等显示已就绪。
+2. 回桌面，用笔尖在纸上扫一行字。能自动弹出词典、看到释义，再点喇叭听到发音，就验证了最常用的功能。
+3. 想回到原厂时，在安卓打开「系统切换」并选「进入原厂系统」。想再回安卓，在原厂桌面找绿色「返回安卓」。[完整使用手册](usage.md)
+
+安装后若要更新原厂固件，先恢复原厂备份。原厂更新可能使用安卓当前占用的启动位置。
 
 ## 恢复
 
-恢复将 userdisk、boot A 和 A/B 启动选择还原到制作备份时的状态。备份之后新产生的安卓数据、原厂笔记和其他用户分区改动都会被覆盖。先保存需要留下的内容。独立恢复仅需要原始备份及其在备份时记录的 SHA-256。
+**恢复会把用户分区退回到备份当天。** 安装后新增的笔记、文件和安卓数据，先另存一份。让同一支笔进入 Loader，回到连着 USB 的电脑。若人在安卓，可先用「系统切换」进入原厂，再按第 2 步进入 Loader。
 
 ```sh
-python3 install.py restore --loader rkdeveloptool --backup /private/path/stock.img --backup-sha256 YOUR_BACKUP_SHA256 --confirm-serial YOUR_SERIAL
-rkdeveloptool rd
+cd "$HOME/CherryPen/installer"
+export PATH="$HOME/CherryPen/tools:$PATH"
+cat ../private/backup.log
 ```
 
-要在普通文件上演练，把 check、install、restore 命令中的 `--loader rkdeveloptool` 换成 `--disk-copy /private/path/disposable-copy.img`。该文件须是整盘备份的独立副本。恢复后可对副本和备份执行 `cmp`。
+确认日志里有备份成功的那一行，再执行下面的命令。它会自动读取当时记录的校验值和序列号；完整恢复只需原始备份，无需重新生成 update。
 
-## 平台材料
+```sh
+python3 install.py restore --loader rkdeveloptool --backup ../private/stock.img --backup-sha256 "$(awk '/备份已回读/{hash=$NF} END{print hash}' ../private/backup.log)" --confirm-serial "$(cat ../private/serial.txt)"
+```
 
-platform-files.json 列出平台文件的精确路径和 SHA-256，apps.json 列出应用及拆分 APK。开发者准备的本地 platform 包含板级适配程序、设备无关的启动模板、系统和驱动镜像、空数据模板及对应应用。安装器会检查每个文件，按备份中的序列号生成内核和切换组件。原厂导入清单 factory-files.json 只有资源路径、版本转换信息和摘要。源码 ZIP 单独使用时，需另外准备这一版 platform；目前没有公开下载地址。
-
-## 验证范围
-
-已有适配版在开发用词典笔上完成过安卓启动、扫描翻译、发音与双向切换验收。本版首次安装流程另行在由真实原厂文件重建的磁盘副本上验证。未经项目改动的第二支实机，其首次冷启动及原厂桌面返回仍待验证。
+看到 **「已恢复备份中的用户分区、启动 A 与引导记录」** 再执行 `rkdeveloptool rd`，观察能否回到原厂界面。如果 Linux 提示没有 USB 访问权限，请检查当前用户对该 Loader 的访问权限；在自己管理的 Ubuntu 电脑上，可用 `sudo` 和本地工具的完整路径运行需访问 USB 的命令。[中断、校验失败和文件演练](recovery.md)

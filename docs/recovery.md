@@ -2,17 +2,30 @@
 
 ## 先在文件上走一遍
 
-准备好目标笔自己的原厂备份和由它生成的 update 目录。在有足够空间的文件系统上制作一份独立副本。以下步骤只对副本写入，使用的参数与 USB 流程一致。YOUR_BACKUP_SHA256 是备份时记录的 64 位十六进制摘要。
+先完成[安装教程](installation.md)的第 1 至 4 步，确认 `CherryPen/private` 里已经有 `stock.img`、`backup.log`、`serial.txt` 和 `update`。演练需要额外约 16 GB 可用空间。下面整段在 Mac 或 Ubuntu 的终端中进行，无需连接笔。
+
+先做一个可丢弃的新副本，并检查安装文件：
 
 ```sh
-cp /private/path/stock.img /private/path/practice.img
-python3 install.py check --disk-copy /private/path/practice.img --backup /private/path/stock.img --package /private/path/update --confirm-serial YOUR_SERIAL
-python3 install.py install --disk-copy /private/path/practice.img --backup /private/path/stock.img --package /private/path/update --confirm-serial YOUR_SERIAL
-python3 install.py restore --disk-copy /private/path/practice.img --backup /private/path/stock.img --backup-sha256 YOUR_BACKUP_SHA256 --confirm-serial YOUR_SERIAL
-cmp /private/path/stock.img /private/path/practice.img
+cd "$HOME/CherryPen/installer"
+cp -n ../private/stock.img ../private/practice.img
+python3 install.py check --disk-copy ../private/practice.img --backup ../private/stock.img --package ../private/update --confirm-serial "$(cat ../private/serial.txt)"
 ```
 
-`cmp` 成功时不输出内容，退出状态为 0。请始终保留最初从设备读取的 stock.img。用硬链接作为练习副本会被安装器拒绝。
+看到「已核验」再练习写入。这里的目标是 `practice.img`：
+
+```sh
+python3 install.py install --disk-copy ../private/practice.img --backup ../private/stock.img --package ../private/update --confirm-serial "$(cat ../private/serial.txt)"
+```
+
+看到「安装写入与回读完成」后，用原备份恢复副本，然后逐字节比较：
+
+```sh
+python3 install.py restore --disk-copy ../private/practice.img --backup ../private/stock.img --backup-sha256 "$(awk '/备份已回读/{hash=$NF} END{print hash}' ../private/backup.log)" --confirm-serial "$(cat ../private/serial.txt)"
+cmp ../private/stock.img ../private/practice.img && echo '演练通过，恢复后的副本与原备份完全一致'
+```
+
+如果已经有名为 practice.img 的文件，先弄清它的用途。这份演练会对它写入。请保留最初读取的 stock.img。
 
 ## 常见情况
 
