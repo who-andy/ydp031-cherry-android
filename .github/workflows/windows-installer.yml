@@ -22,7 +22,7 @@ jobs:
         run: |
           ./build/windows/build.ps1 -OutputDir "$env:RUNNER_TEMP/bin"
           $csc = "$env:WINDIR/Microsoft.NET/Framework64/v4.0.30319/csc.exe"
-          & $csc /nologo /codepage:65001 /target:exe /reference:System.Web.Extensions.dll /main:WindowsUsbTests "/out:$env:RUNNER_TEMP/bin/Test.exe" build/windows/StartWindows.cs tests/WindowsUsbTests.cs
+          & $csc /nologo /codepage:65001 /target:exe /reference:System.Web.Extensions.dll /main:WindowsUsbTests "/out:$env:RUNNER_TEMP\bin\Test.exe" "$env:GITHUB_WORKSPACE\build\windows\StartWindows.cs" "$env:GITHUB_WORKSPACE\tests\WindowsUsbTests.cs"
           if ($LASTEXITCODE) { exit $LASTEXITCODE }
           & "$env:RUNNER_TEMP/bin/Test.exe"
           if ($LASTEXITCODE) { exit $LASTEXITCODE }
