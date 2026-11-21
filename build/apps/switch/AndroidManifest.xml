@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="local.cherry.bootswitch" android:versionCode="1" android:versionName="1.0">
+ <uses-sdk android:minSdkVersion="27" android:targetSdkVersion="27" />
+ <application android:label="系统切换" android:theme="@android:style/Theme.Material.Light.NoActionBar" android:allowBackup="false">
+  <activity android:name=".SwitchActivity" android:exported="true"><intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter></activity>
+ </application>
+</manifest>

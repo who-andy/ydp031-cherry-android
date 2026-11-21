@@ -29,28 +29,6 @@
       "sha256": "89cecbe06eacd2ff7d91e37152d6beeb52809f2ca38060b6515ed8b00d152412"
     }
   ],
-  "com.primatelabs.geekbench": [
-    {
-      "name": "base.apk",
-      "sha256": "7390de3494dc0b28ae69a677e891e6a897a78d8b63260117789121e327845bcf"
-    },
-    {
-      "name": "split_config.arm64_v8a.apk",
-      "sha256": "ed8b9b3ea2b3f855868e0557b14571334ce34809f5fcc42816cd8f41dfda3a70"
-    },
-    {
-      "name": "split_config.en.apk",
-      "sha256": "0a8e2e5b5436648105eb12f3588f45a25ecb3839f86ab3f7e7ff257bd2ac2d62"
-    },
-    {
-      "name": "split_config.ldpi.apk",
-      "sha256": "6a0dcb76f32fcd2a2e4472ce632fe5d6e853529e0ac18bd14f954c0cffb93b26"
-    },
-    {
-      "name": "split_config.zh.apk",
-      "sha256": "83780d211ce52fe934b63268c3827cd4779dc73f578862db5d18aad9bc790140"
-    }
-  ],
   "org.linaro.glmark2": [
     {
       "name": "glmark2-2023.01.apk",

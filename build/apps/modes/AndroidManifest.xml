@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="local.cherry.modes" android:versionCode="2" android:versionName="1.1">
+ <uses-sdk android:minSdkVersion="27" android:targetSdkVersion="27" />
+ <application android:label="设备模式" android:theme="@android:style/Theme.Material.NoActionBar" android:allowBackup="false" android:hardwareAccelerated="true">
+  <activity android:name=".ModeActivity" android:exported="true" android:screenOrientation="reverseLandscape" android:configChanges="orientation|screenSize|keyboardHidden"><intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter></activity>
+ </application>
+</manifest>

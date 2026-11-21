@@ -30,6 +30,7 @@ def backup(args):
         h=hashlib.sha256()
         with file.open('xb') as out:
             for pos,n in pieces(0,SIZE):
+                if pos%(512*1024**2)==0: print('读取备份',pos*100//SIZE,'%',flush=True)
                 data=device.read(pos,n)
                 h.update(data)
                 if data.count(0)==len(data):out.seek(n,1)
@@ -39,6 +40,16 @@ def backup(args):
             os.fsync(out.fileno())
         checksum=h.hexdigest()
         require(region_hash(DiskFile(file),0,SIZE)==checksum==region_hash(device,0,SIZE),'备份与设备复读校验不一致')
+        receipt=args.output.with_name(args.output.name+'.sha256')
+        temp_receipt=tmp/'receipt'
+        with temp_receipt.open('x') as out:
+            out.write(checksum+'\n')
+            out.flush()
+            os.fsync(out.fileno())
+        if receipt.exists():
+            require(not receipt.is_symlink() and receipt.read_text().strip()==checksum,'已有备份校验记录与本次读取不同')
+        else:
+            os.link(temp_receipt,receipt)
         os.link(file,args.output)
         print('备份已回读，SHA-256',checksum)
 
@@ -57,7 +68,8 @@ def stage_private(args):
         tmp=Path(ts).resolve()
         result=tmp/'package'
         result.mkdir(mode=0o700)
-        stage(args,tmp,result)
+        with tempfile.TemporaryDirectory(prefix="cherry-images-",dir="/var/tmp") as images:
+            stage(args,Path(images),result)
         # The user running sudo must be able to carry this private bundle back to the USB host.
         if 'SUDO_UID' in os.environ and 'SUDO_GID' in os.environ:
             uid,gid=int(os.environ['SUDO_UID']),int(os.environ['SUDO_GID'])
@@ -151,6 +163,8 @@ def main():
     subs=p.add_subparsers(dest='action',required=True)
     s=subs.add_parser('verify-platform',help='核对本地平台材料')
     s.add_argument('--platform',required=True,type=Path)
+    s=subs.add_parser('identify',help='只读识别维护模式设备')
+    s.add_argument('--loader',required=True)
     s=subs.add_parser('inspect',help='只读识别备份')
     s.add_argument('--backup',required=True,type=Path)
     s=subs.add_parser('backup',help='从已进入 Loader 的设备完整备份 eMMC 用户区')
@@ -177,6 +191,9 @@ def main():
     if args.action=='verify-platform':
         from prepare import verify_platform
         print('平台组件校验通过，文件数',len(verify_platform(args.platform.resolve(strict=True))))
+    elif args.action=='identify':
+        with tempfile.TemporaryDirectory() as tmp:
+            print(json.dumps(identity(Loader(args.loader,Path(tmp)))))
     elif args.action=='inspect':
         src=DiskFile(args.backup)
         print(json.dumps(identity(src),ensure_ascii=False))

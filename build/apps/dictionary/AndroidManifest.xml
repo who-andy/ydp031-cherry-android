@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="local.cherry.originalui" android:versionCode="9" android:versionName="0.6.0">
+ <uses-sdk android:minSdkVersion="27" android:targetSdkVersion="27" />
+ <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+ <application android:label="原版词典" android:theme="@android:style/Theme.Material.NoActionBar" android:allowBackup="false" android:hardwareAccelerated="true">
+  <service android:name=".ScanService" android:exported="false" />
+  <receiver android:name=".ScanBootReceiver" android:exported="false"><intent-filter><action android:name="android.intent.action.BOOT_COMPLETED"/><action android:name="android.intent.action.MY_PACKAGE_REPLACED"/></intent-filter></receiver>
+  <activity android:name=".OriginalUiActivity" android:exported="true" android:launchMode="singleTask" android:screenOrientation="reverseLandscape" android:configChanges="orientation|screenSize|keyboardHidden"><intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter></activity>
+ </application>
+</manifest>

@@ -9,6 +9,7 @@ import stat
 import subprocess
 import tempfile
 
+from image_parts import materialize
 from boot import assemble,personalize
 from disk import DiskFile,PARTS,RANGES,SIZE,STOCK_BOOT,digest,identity,pieces,region_hash,require,trial
 from factory_button import install as register_button
@@ -135,7 +136,7 @@ def stage(args,tmp,result):
             board.mkdir()
             for key in ('system-controls','vendor-desktop'):
                 p=board/(key+'.ext4')
-                gunzip_sparse(args.platform/(key+'.ext4.gz'),p)
+                materialize(args.platform,key,p,factory)
                 run('e2fsck','-fn',p)
             datafile=board/'data-desktop.ext4'
             require(gunzip_sparse(args.platform/'data-clean.ext4.gz',datafile)==2684354560,'Android 数据模板错误')
