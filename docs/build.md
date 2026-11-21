@@ -48,3 +48,11 @@ sh build/apps/build.sh modes "$PWD/modes-local.apk"
 - Rockchip 内核与源码修改见 [build/kernel](../build/kernel)，对应版本由 build.sh 固定。第三方驱动、原厂资源和已编译板级组件各有来源。本教程覆盖上述三个可独立构建的部分；整套系统的一键全源码重编仍未提供。
 
 glmark2 采用 2023.01 版，项目使用的 Android SurfaceView 源文件位于 [build/glmark2](../build/glmark2)。Magisk 管理器为 v31.1，KOReader 为 v2026.07.1；可按这些版本号查找上游提供的对应源码及许可证。
+
+## 编译 Windows 启动器
+
+在 Windows x64 的 PowerShell 中，从仓库根目录运行 `./build/windows/build.ps1 -OutputDir ./out`。脚本使用系统的 .NET Framework 编译器。使用 Python 3.9+ 执行下面的命令，将生成的 EXE 与同版通用平台文件打包。
+
+```powershell
+python build/package.py --platform C:\Cherry-YDP031\platform --windows-launcher .\out\Start-Windows.exe --output .\Cherry-Windows-local.zip
+```

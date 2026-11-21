@@ -4,7 +4,7 @@
 
 ![实机横屏显示英文原句及中文译文](docs/images/translation.png)
 
-**[下载安装器 ZIP](https://github.com/who-andy/ydp031-cherry-android/releases/download/v0.2.0-rc.1/Cherry-YDP031-Installer.zip)**　·　[第一次刷机，从这里开始](docs/start.md)　·　[实机截图和验证范围](docs/results.md)
+**[Windows 11 安装器](https://github.com/who-andy/ydp031-cherry-android/releases/download/v0.2.0-rc.2-win.1/Cherry-YDP031-Windows.zip)** · [Windows 教程](docs/windows.md) · **[Mac / Ubuntu 安装器 ZIP](https://github.com/who-andy/ydp031-cherry-android/releases/download/v0.2.0-rc.1/Cherry-YDP031-Installer.zip)**　·　[第一次刷机，从这里开始](docs/start.md)　·　[实机截图和验证范围](docs/results.md)
 
 | 你想做什么 | 操作 |
 | --- | --- |
@@ -14,6 +14,6 @@
 | 想把内存让给前台应用 | 在安卓的「设备模式」里切到游戏模式。切回学习模式即可恢复落笔扫词。 |
 | 想从源码构建 | [安装器打包、内核编译和应用构建](docs/build.md) |
 
-本次首次安装面向 **YDP031CHNSTD、16 GB、原厂 B 槽 OS 3.4.6**。电脑支持 Apple Silicon Mac 与 Ubuntu。安装器会备份整笔，从自己的笔里读取原厂词典资源，在电脑上自动制作专用启动文件。两个原厂 system 分区和原厂 boot B 保留。安装及首次开机验证的边界见[实机效果](docs/results.md)。
+本次首次安装面向 **YDP031CHNSTD、16 GB、原厂 B 槽 OS 3.4.6**。可用 Apple Silicon Mac、Ubuntu，或 Windows 11 x64 测试版。安装器会备份整笔，从自己的笔里读取原厂词典资源，在电脑上自动制作专用启动文件。两个原厂 system 分区和原厂 boot B 保留。安装及首次开机验证的边界见[实机效果](docs/results.md)。
 
 这是社区适配的候选版本。项目与有道官方无隶属关系。

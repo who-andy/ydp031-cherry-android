@@ -1,0 +1,75 @@
+name: Windows installer
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  linux-tools:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Exercise the image-builder entry points and build the USB tool
+        run: |
+          python3 -m unittest discover -s tests -v
+          sh host-tools.sh "$RUNNER_TEMP/CherryPen"
+          "$RUNNER_TEMP/CherryPen/tools/rkdeveloptool-304f073" -v
+  windows:
+    runs-on: windows-2022
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build launcher and test USB selection on Windows
+        shell: powershell
+        run: |
+          ./build/windows/build.ps1 -OutputDir "$env:RUNNER_TEMP/bin"
+          $csc = "$env:WINDIR/Microsoft.NET/Framework64/v4.0.30319/csc.exe"
+          & $csc /nologo /codepage:65001 /target:exe /reference:System.Web.Extensions.dll /main:WindowsUsbTests "/out:$env:RUNNER_TEMP/bin/Test.exe" build/windows/StartWindows.cs tests/WindowsUsbTests.cs
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
+          & "$env:RUNNER_TEMP/bin/Test.exe"
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
+      - name: Package and launch a fresh extraction
+        shell: pwsh
+        run: |
+          $url='https://github.com/who-andy/ydp031-cherry-android/releases/download/v0.2.0-rc.1/Cherry-YDP031-Installer.zip'
+          curl.exe -fLsS --retry 3 $url -o "$env:RUNNER_TEMP/base.zip"
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
+          if ((Get-FileHash "$env:RUNNER_TEMP/base.zip").Hash -ne 'f8a178e6b7c3146ab71e42ec6c535314df5d7e528e3ec10c82a5db49c0f1a1cb') { throw 'Base checksum mismatch' }
+          Expand-Archive "$env:RUNNER_TEMP/base.zip" "$env:RUNNER_TEMP/base"
+          mkdir dist
+          python build/package.py --platform "$env:RUNNER_TEMP/base/Cherry-YDP031/platform" --windows-launcher "$env:RUNNER_TEMP/bin/Start-Windows.exe" --output dist/Cherry-YDP031-Windows.zip
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
+          Expand-Archive dist/Cherry-YDP031-Windows.zip "$env:RUNNER_TEMP/测试 space"
+          $folder="$env:RUNNER_TEMP/测试 space/Cherry-YDP031"
+          & "$folder/Start-Windows.exe" --self-test
+          if ($LASTEXITCODE -ne 0) { throw 'Failed standalone Windows self-test' }
+          '4' | & "$folder/Start-Windows.exe"
+          if ($LASTEXITCODE -ne 0) { throw 'Menu self-test failed' }
+          Remove-Item -LiteralPath "$folder/platform/board/first-boot/files.sha256"
+          & "$folder/Start-Windows.exe" --self-test
+          if ($LASTEXITCODE -eq 0) { throw 'Missing component accepted' }
+          $hash=(Get-FileHash dist/Cherry-YDP031-Windows.zip).Hash.ToLowerInvariant()
+          "$hash  Cherry-YDP031-Windows.zip" | Set-Content dist/SHA256SUMS -Encoding ascii
+          exit 0
+      - uses: actions/upload-artifact@v4
+        with:
+          name: windows-installer
+          path: dist/
+          retention-days: 3
+  release:
+    needs: [linux-tools, windows]
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: windows-installer
+          path: dist
+      - name: Publish Windows candidate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd dist
+          sha256sum -c SHA256SUMS
+          gh release create v0.2.0-rc.2-win.1 --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --prerelease --title '有道词典笔 3 · Windows 11 x64 双系统安装器（测试版）' --notes-file ../docs/windows-release.md Cherry-YDP031-Windows.zip SHA256SUMS

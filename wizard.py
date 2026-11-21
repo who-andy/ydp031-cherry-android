@@ -3,6 +3,7 @@ import argparse
 import fcntl
 import json
 import os
+import re
 from pathlib import Path
 import shutil
 import subprocess
@@ -55,23 +56,45 @@ def installed_copy():
     bundle_check(destination)
     return destination
 
+def windows_bridge_serial(output):
+    match=re.fullmatch(r'CHERRY_SERIAL=([A-Za-z0-9]{16}|)',output.strip())
+    require(match is not None,'Windows USB 助手返回了无效的设备标识')
+    return match.group(1)
+
+def work_space(windows_exe):
+    available=shutil.disk_usage(ROOT).free
+    if windows_exe:
+        host=int(run(windows_exe,'--free-bytes',capture=True).strip())
+        available=min(available,host)
+    return available
+
 def main():
     p=argparse.ArgumentParser(description='有道词典笔 3 双系统安装器')
     group=p.add_mutually_exclusive_group()
     group.add_argument('--self-test',action='store_true',help='只检查下载包，无需连接设备')
     group.add_argument('--download-only',action='store_true',help='下载并核对上游文件，无需连接设备')
+    group.add_argument('--windows-action',choices=('install','restore','download'),help=argparse.SUPPRESS)
     args=p.parse_args()
+    windows_exe=None
+    if args.windows_action:
+        import platform
+        require('wsl2' in platform.release().lower(),'Windows 入口需要 WSL 2')
+        windows_exe=HERE/'Start-Windows.exe'
+        require(windows_exe.is_file(),'请从完整的 Windows 下载包启动')
     os.umask(0o077)
     print('Cherry Android · 有道词典笔 3 双系统\n支持 YDP031CHNSTD、16 GB、原厂 B 槽 OS 3.4.6。',flush=True)
     bundle_check(HERE)
     if args.self_test:
         return
-    action='2' if args.download_only else input('1 安装双系统   2 只准备下载   3 恢复自己的原厂备份   回车退出\n请选择：').strip()
+    automatic={'install':'1','restore':'3','download':'2'}.get(args.windows_action)
+    action=automatic or ('2' if args.download_only else input('1 安装双系统   2 只准备下载   3 恢复自己的原厂备份   回车退出\n请选择：').strip())
     if action not in ('1','2','3'):
         return
     ROOT.mkdir(mode=0o700,exist_ok=True)
     with (ROOT/'installer.lock').open('a+') as lock:
         fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+        if windows_exe and action=='1' and not any((ROOT/'private').glob('*/stock.img')):
+            require(work_space(windows_exe)>=50*1024**3,'首次安装请在 Ubuntu 所在 Windows 磁盘留出至少 50 GiB')
         folder=installed_copy()
         platform=folder/'platform'
         if action!='3':
@@ -90,25 +113,30 @@ def main():
         run('sh',folder/'host-tools.sh',ROOT)
         tool=ROOT/'tools/rkdeveloptool-304f073'
         prefix=[] if MAC or os.getuid()==0 else ['sudo']
-        rows=[s.split() for s in run('adb','devices',capture=True).splitlines() if s.strip() and not s.startswith('List of devices')]
-        if rows:
-            require(len(rows)==1 and len(rows[0])==2 and rows[0][1]=='device','请只连接一支笔，并在原厂系统确认 USB 调试授权')
-            print('将让这支笔进入 USB 维护模式：',rows[0][0],flush=True)
-            run('adb','-s',rows[0][0],'reboot','bootloader')
+        expected=''
+        if windows_exe:
+            expected=windows_bridge_serial(run(windows_exe,'--connect-loader',capture=True))
+        else:
+            rows=[s.split() for s in run('adb','devices',capture=True).splitlines() if s.strip() and not s.startswith('List of devices')]
+            if rows:
+                require(len(rows)==1 and len(rows[0])==2 and rows[0][1]=='device','请只连接一支笔，并在原厂系统确认 USB 调试授权')
+                expected=rows[0][0]
+                print('将让这支笔进入 USB 维护模式：',expected,flush=True)
+                run('adb','-s',expected,'reboot','bootloader')
         for attempt in range(45):
             report=run(*prefix,tool,'ld',capture=True)
             if 'Loader' in report: break
             time.sleep(1)
         identity=json.loads(run(*prefix,sys.executable,folder/'install.py','identify','--loader',tool,capture=True))
         serial=identity['serial']
-        if rows: require(rows[0][0]==serial,'维护模式设备与刚才的笔不同')
+        if expected: require(expected==serial,'维护模式设备与刚才的笔不同')
         private=ROOT/'private'/serial
         private.mkdir(mode=0o700,parents=True,exist_ok=True)
         backup=private/'stock.img'; receipt=private/'stock.img.sha256'; update=private/'update-rc2'
         cli=[sys.executable,folder/'install.py']
         if action=='1' and not update.exists():
             needed=(15 if backup.is_file() else 40)*1024**3
-            require(shutil.disk_usage(ROOT).free>=needed,'本地空间不足，请保留备份，在个人文件夹所在磁盘腾出空间后重试')
+            require(work_space(windows_exe)>=needed,'本地空间不足，请保留备份，在个人文件夹所在磁盘腾出空间后重试')
         if action=='1' and not backup.exists():
             print('正在保存整笔备份，随后会从设备再读一遍。请保持连接。',flush=True)
             run(*prefix,*cli,'backup','--loader',tool,'--serial',serial,'--output',backup)
