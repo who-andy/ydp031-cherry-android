@@ -1,0 +1,32 @@
+name: Publish verified installer downloads
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Copy verified installers into the public download release
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP"
+          gh release download v0.2.0-rc.1 --pattern Cherry-YDP031-Installer.zip
+          gh release download v0.2.0-rc.2-win.1 --pattern Cherry-YDP031-Windows.zip
+          cat > SHA256SUMS <<'SUMS'
+          f8a178e6b7c3146ab71e42ec6c535314df5d7e528e3ec10c82a5db49c0f1a1cb  Cherry-YDP031-Installer.zip
+          d872ebd19705045f17acc86c677ad070db98d26b2ab59cb97cab92ed1e24b447  Cherry-YDP031-Windows.zip
+          SUMS
+          sha256sum --check SHA256SUMS
+          tag=v0.2.0-downloads.1
+          gh release create "$tag" --target "$GITHUB_SHA" --draft --title '有道词典笔 3（YDP031）双系统安装器下载 · Windows / macOS / Ubuntu（测试版）' --notes-file "$GITHUB_WORKSPACE/docs/downloads.md" Cherry-YDP031-Windows.zip Cherry-YDP031-Installer.zip SHA256SUMS
+          gh release view "$tag" --json assets --jq '.assets[] | select(.state=="uploaded") | "\(.digest | sub("^sha256:";""))  \(.name)"' > hosted-sums
+          test "$(wc -l < hosted-sums)" -eq 3
+          sha256sum --check hosted-sums
+          gh release edit "$tag" --draft=false --latest

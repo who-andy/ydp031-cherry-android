@@ -4,7 +4,7 @@
 
 ![实机横屏显示英文原句及中文译文](docs/images/translation.png)
 
-**[Windows 11 安装器](https://github.com/who-andy/ydp031-cherry-android/releases/download/v0.2.0-rc.2-win.1/Cherry-YDP031-Windows.zip)** · [Windows 教程](docs/windows.md) · **[Mac / Ubuntu 安装器 ZIP](https://github.com/who-andy/ydp031-cherry-android/releases/download/v0.2.0-rc.1/Cherry-YDP031-Installer.zip)**　·　[第一次刷机，从这里开始](docs/start.md)　·　[实机截图和验证范围](docs/results.md)
+**[到 GitHub Release 下载安装器](https://github.com/who-andy/ydp031-cherry-android/releases/latest)** · [Windows 刷机教程](docs/windows.md) · [Mac / Ubuntu 刷机教程](docs/start.md) · [实机效果](docs/results.md)
 
 | 你想做什么 | 操作 |
 | --- | --- |
