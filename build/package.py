@@ -41,7 +41,7 @@ def main():
         except BaseException:
             args.output.unlink()
             raise
-    print('安装包 SHA-256',checksum(args.output))
+    print('SHA-256',checksum(args.output))
 
 if __name__=='__main__':
     main()

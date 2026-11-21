@@ -39,6 +39,7 @@ jobs:
           if ($LASTEXITCODE) { exit $LASTEXITCODE }
           Expand-Archive dist/Cherry-YDP031-Windows.zip "$env:RUNNER_TEMP/测试 space"
           $folder="$env:RUNNER_TEMP/测试 space/Cherry-YDP031"
+          if ([IO.File]::ReadAllText((Join-Path $folder 'host-tools.sh')).Contains("`r")) { throw 'WSL script has Windows line endings' }
           & "$folder/Start-Windows.exe" --self-test
           if ($LASTEXITCODE -ne 0) { throw 'Failed standalone Windows self-test' }
           '4' | & "$folder/Start-Windows.exe"
